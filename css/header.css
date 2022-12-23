@@ -1,4 +1,9 @@
 .justify-space-around {
     display: flex;
-        justify-content: space-around;
-  }
+    justify-content: space-around;
+}
+
+.items-center {
+    display: flex;
+    align-items: center;
+}
