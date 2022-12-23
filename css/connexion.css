@@ -34,3 +34,19 @@ body{
 .container{
     display: flex;
   }
+
+.couleur{
+    color:#ffffff
+}
+
+table{
+    border: 2px solid black;
+}
+
+th, td{
+    border: 1px solid #dddddd;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
