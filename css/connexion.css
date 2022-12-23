@@ -11,15 +11,11 @@ li{
   }
 
 body{
-    background-color:orange
-  }
+  background: linear-gradient(orange, red);
+}
 
 .container{
     display: flex;
-  }
-
-.hh{
-    display: flex; align-items: center;
   }
 
 .m-3{
@@ -49,4 +45,26 @@ th, td{
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.justify-space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.items-center {
+  display: flex;
+  align-items: center;
+}
+
+.bg-white{
+  background-color: #dddddd;
+} 
+
+.bg-bouton{
+  background: linear-gradient(white, grey)
+}
+
+.bg-bouton2{
+  background-color: rgba(99, 155, 219, 1);
 }

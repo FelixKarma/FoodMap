@@ -9,7 +9,7 @@
     <title>page de paramètres</title>
 </head>
 <body>
-    <div class="hh">
+    <div class="justify-space-around items-center">
         <img src="../img/FoodMap.png" width="50" height="50" />
         <h1 class="couleur">FoodMap</h1>
         <img src="../img/Group.png" width="45" height="45">
@@ -17,34 +17,33 @@
     <form action="#">
         <div class="flex-col">
             <p></p>
-            <table class="items-center border-spacing">
-                <tr>
-                    <th><label for="nom_utilisateur">Nom d'utlisateur</label></th>
-                    <th><input type="text"></th>
-                </tr>
-                <tr>
-                    <th><label for="adresse_mail">Adresse mail</label></th>
-                    <th><input for="email"></th>
-                </tr>
-                <tr>
-                    <th><label for="numero_telephone">Numéro de téléphone</label></th>
-                    <th><input type="tel"></th>
-                </tr>
-                <tr>
-                    <th><label for="theme">Thème</label></th>
-                </tr>
-                <tr>
-                    <th><label for="mot_de_passe">Mot de passe</label></th>
-                    <th><input type="password"></th>
-                </tr>
-                <tr>
-                    <th><label for="notifications">Notifications</label></th>
-                </tr>
-            </table>
+                <div class="m-3">
+                    <label for="nom_utilisateur" class="bg-white">Nom d'utlisateur</label>
+                    <input type="text">
+                </div>
+                <div class="m-3">
+                    <label for="adresse_mail" class="bg-white">Adresse mail</label>
+                    <input for="email">
+                </div>
+                <div class="m-3">
+                    <label for="numero_telephone" class="bg-white">Numéro de téléphone</label>
+                    <input type="tel">
+                </div>
+                <div class="m-3">
+                    <label for="theme" class="bg-white">Thème</label>
+                </div>
+                <div class="m-3">
+                    <label for="mot_de_passe" class="bg-white">Mot de passe</label>
+                    <input type="password">
+                </div>
+                <div class="m-3">
+                    <label for="notifications" class="bg-white">Notifications</label>
+                    <img src="../img/Vector.png" width="45" height="18">
+                </div>
             <p></p>
             <p></p>
         </div>
-        <input type="submit" value="Déconnexion">
+        <input type="submit" class="bg-bouton" value="Déconnexion">
     </form>
 </body>
 

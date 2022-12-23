@@ -2,18 +2,6 @@
     text-align: center;
 }
 
-table{
-    border: 2px solid black;
-  }
-
-th, td{
-    border: 1px solid #dddddd;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-
 .flex-col{
     display: flex;
     flex-direction: column;
@@ -23,17 +11,21 @@ th, td{
     margin: 3px;
   }
 
-.hh{
-    display: flex; align-items: center;
-  }
-
 .container{
     display: flex;
   }
 
 body{
-    background-color:orange
+  background: linear-gradient(orange, red);
   }
+
+.bg-white{
+    background-color: white ;
+}
+
+.bg-bouton{
+    background: linear-gradient(white, grey)
+}
 
 li{
     display: block;
@@ -41,5 +33,15 @@ li{
 
 .couleur{
   color:#ffffff
+}
+
+.justify-space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.items-center {
+  display: flex;
+  align-items: center;
 }
 
