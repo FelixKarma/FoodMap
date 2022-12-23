@@ -1,0 +1,14 @@
+.m-10{
+    margin: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+.text-center{
+    text-align: center;
+}
+
+body{
+    background-color:orange
+}
