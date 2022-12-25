@@ -10,10 +10,6 @@
     text-align: center;
 }
 
-body{
-    background: linear-gradient(orange, red);
-}
-
 .container{
     display: flex;
 }
@@ -69,3 +65,10 @@ th, td{
 .bg-bouton2{
     background-color: rgba(99, 155, 219, 1);
   }
+
+body{
+    Background-image:url("../img/bois1.jpg");
+    }
+
+
+    

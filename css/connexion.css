@@ -11,7 +11,7 @@ li{
   }
 
 body{
-  background: linear-gradient(orange, red);
+  background: linear-gradient(rgb(255, 165, 0), red);
 }
 
 .container{
@@ -67,4 +67,8 @@ th, td{
 
 .bg-bouton2{
   background-color: rgba(99, 155, 219, 1);
+}
+
+body{
+  background: linear-gradient(rgb(236, 100, 8), rgb(151, 75, 255));
 }
