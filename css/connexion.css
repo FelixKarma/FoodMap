@@ -1,50 +1,54 @@
 .text-center{
-    text-align: center;
+  text-align: center;
 }
 
 li{
-    display: block;
-  }
+  display: block;
+}
 
 .p{
-    text-align: right
-  }
+  text-align: right
+}
 
 body{
   background: linear-gradient(rgb(255, 165, 0), red);
 }
 
 .container{
-    display: flex;
-  }
+  display: flex;
+}
 
 .m-3{
-    margin: 3px;
-  }
+  margin: 3px;
+}
 
 .flex-col{
-    display: flex;
-    flex-direction: column;
-  }
+  display: flex;
+  flex-direction: column;
+}
 
 .container{
-    display: flex;
-  }
+  display: flex;
+}
 
 .couleur{
-    color:#ffffff
+  color: #ffffff
+}
+
+.couleur-bleue{
+  color: rgba(52, 136, 239);
 }
 
 table{
-    border: 2px solid black;
+  border: 2px solid black;
 }
 
 th, td{
-    border: 1px solid #dddddd;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  border: 1px solid #dddddd;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .justify-space-around {
@@ -58,17 +62,18 @@ th, td{
 }
 
 .bg-white{
-  background-color: #dddddd;
+  background-color: #ffffff;
 } 
 
 .bg-bouton{
-  background: linear-gradient(white, grey)
+  background: linear-gradient(#dddddd, #989898)
 }
 
 .bg-bouton2{
-  background-color: rgba(99, 155, 219, 1);
+  background-color: rgba(52, 136, 239);
 }
 
 body{
   background: linear-gradient(rgb(236, 100, 8), rgb(151, 75, 255));
 }
+

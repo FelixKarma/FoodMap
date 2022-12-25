@@ -1,34 +1,34 @@
 .text-center{
-    text-align: center;
+  text-align: center;
 }
 
 .flex-col{
-    display: flex;
-    flex-direction: column;
-  }
+  display: flex;
+  flex-direction: column;
+}
 
 .m-3{
-    margin: 3px;
-  }
+  margin: 3px;
+}
 
 .container{
-    display: flex;
-  }
+  display: flex;
+}
 
-  body{
-    background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8));
-  }
+body{
+  background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8));
+}
 
 .bg-white{
-    background-color: white ;
+  background-color: #ffffff ;
 }
 
 .bg-bouton{
-    background: linear-gradient(white, grey)
+  background: linear-gradient(#ffffff, #989898)
 }
 
 li{
-    display: block;
+  display: block;
   }
 
 .couleur{
@@ -44,4 +44,3 @@ li{
   display: flex;
   align-items: center;
 }
-

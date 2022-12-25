@@ -55,20 +55,20 @@ th, td{
 }
 
 .bg-white{
-    background-color: #dddddd;
+    background-color: #ffffff;
 }
 
 .bg-bouton{
-    background: linear-gradient(white, grey)
+    background: linear-gradient(#ffffff, #989898)
 }
 
 .bg-bouton2{
-    background-color: rgba(99, 155, 219, 1);
-  }
+    background-color: rgba(52, 136, 239);
+}
 
 body{
     Background-image:url("../img/bois1.jpg");
-    }
+}
 
 
     
