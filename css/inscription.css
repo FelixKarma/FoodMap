@@ -6,17 +6,8 @@
     margin: 3px;
 }
 
-.text-center{
-    text-align: center;
-}
-
 .container{
     display: flex;
-}
-
-.hide{
-    color: black;
-    text-decoration:none;
 }
 
 li{
@@ -30,18 +21,6 @@ li{
 
 .couleur{
     color:#ffffff
-}
-
-table{
-    border: 2px solid black;
-}
-
-th, td{
-    border: 1px solid #dddddd;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 
 .justify-space-around {
@@ -70,5 +49,7 @@ body{
     background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8));
 }
 
-
+.m-7{
+    margin: 7px;
+}
     
