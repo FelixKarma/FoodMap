@@ -52,4 +52,9 @@ body{
 .m-7{
     margin: 7px;
 }
+
+.hide{
+    color: rgba(52, 136, 239);
+    text-decoration:none;
+}
     

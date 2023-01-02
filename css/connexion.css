@@ -6,10 +6,6 @@
   text-align: right
 }
 
-body{
-  background: linear-gradient(rgb(255, 165, 0), red);
-}
-
 .flex-col{
   display: flex;
   flex-direction: column;
@@ -59,4 +55,9 @@ body{
 
 .m-70{
   margin:70px;
+}
+
+.hide{
+  color: rgba(52, 136, 239);
+  text-decoration:none;
 }
