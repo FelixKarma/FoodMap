@@ -71,3 +71,11 @@ hr{
   margin-top: 7px;
 }
 
+.roboto{
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+h1{
+  color: #ffffff;
+  font-weight: bold;
+}

@@ -61,3 +61,40 @@ hr{
   background-color: #ffffff;
   margin-top: 7px;
 }
+
+.roboto{
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+h1{
+  color:#ffffff;
+  font-weight: bold;
+}
+
+.theme1{
+  background: linear-gradient(rgb(255, 165, 0), rgb(255, 0, 0));
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.theme2{
+  background-image:url("../img/bois1.jpg") ;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.theme3{
+  background-color: red;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.theme4{
+  background: linear-gradient(rgb(236, 100, 8), rgb(151, 75, 255)) ;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
