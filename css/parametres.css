@@ -17,6 +17,8 @@ body{
 
 .bg-white{
   background-color: #ffffff ;
+  padding: 7px;
+  border-radius: 10px;
 }
 
 .bg-bouton{
@@ -47,4 +49,15 @@ li{
 
 .p1{
   text-align: right;
+}
+
+input{
+  border: 10px;
+  border-radius: 10px;
+  padding: 10px
+}
+
+hr{
+  background-color: #ffffff;
+  margin-top: 7px;
 }
