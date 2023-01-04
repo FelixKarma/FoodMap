@@ -36,20 +36,30 @@
     
   }
 
-  a {
+  .back-home:link, .back-home:visited, .back-home:active { /* manque un équivalent du :visited pour le tactile*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 1.5em;
+    color: #333333;
+    text-decoration: none;
     width: 90%;
     background: linear-gradient(180deg, #FFFFFF 0%, #989898 100%); 
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     height: 43px;
     border-radius: 10px;
-    margin: auto;
   }
 
-  button:hover {
+ .back-home:hover {
     background: #FFFFFF;
 	box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset 5px 5px 18px -11px #000000;
+  }
+
+  img {
+    display: block;
+    margin: auto;
   }
