@@ -15,8 +15,9 @@
     background-color: #ffffff;
     margin-top: 7px;
   }
-  main{
+  header{
      background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8));
+     
   }
   h1{
     color: #fdf7f7;
@@ -24,4 +25,7 @@
   }
   img{
     margin-top: 10px;
+  }
+  body{
+    margin: 0%;
   }
