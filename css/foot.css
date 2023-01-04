@@ -8,6 +8,19 @@
     align-items: center;
 }
 
-body{
+  footer{
     background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8));
-  }
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+
+ }
+ .align-items{
+    display: flex;
+    align-items: flex-end;
+ }
+ hr{
+    background-color: #ffffff;
+    margin-top: 5px;
+ }
