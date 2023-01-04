@@ -33,16 +33,14 @@ li{
     align-items: center;
 }
 
-.bg-white{
-    background-color: #ffffff;
-}
-
-.bg-bouton{
-    background: linear-gradient(#ffffff, #989898)
-}
-
-.bg-bouton2{
+.bouton{
     background-color: rgba(52, 136, 239);
+    color:#FFFFFF;
+}
+
+.bouton:hover {
+    background: #FFFFFF;
+	color: rgb(52, 136, 239);
 }
 
 body{
@@ -63,7 +61,7 @@ input{
     margin-right:5px;
     padding: 10px;
     border-radius: 10px;
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(210, 210, 210);
 }
 
 hr{
