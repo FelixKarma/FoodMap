@@ -42,15 +42,12 @@ body{
   background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8));
 }
 
-.m-7{
-  margin: 7px;
-}
-
 input{
   border: 10px;
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 10px;
+  font-weight:bold;
 }
 
 .gris{
@@ -78,4 +75,8 @@ hr{
 h1{
   color: #ffffff;
   font-weight: bold;
+}
+
+.loin{
+  margin-top: 70px;
 }
