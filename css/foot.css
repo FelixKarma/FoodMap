@@ -14,7 +14,6 @@
     bottom: 0;
     width: 100%;
 
-
  }
  .align-items{
     display: flex;
@@ -22,5 +21,17 @@
  }
  hr{
     background-color: #ffffff;
-    margin-top: 5px;
+    margin-top: 10px;
  }
+
+ .smile{
+    margin-bottom: 5px;
+ }
+
+ .bouton1,.bouton2{
+    font-size: xx-large;
+    color: white;
+    text-decoration: none;
+ }
+ 
+ 
