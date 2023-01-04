@@ -32,10 +32,6 @@
     font-size: 1em;
   }
 
-   {
-    font-size: 1em;
-  }
-
   .button-add { /* manque un équivalent du :visited pour le tactile*/
     display: flex;
     justify-content: center;
