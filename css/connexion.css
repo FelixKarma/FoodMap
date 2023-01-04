@@ -4,7 +4,8 @@
 
 .a_droite{
   text-align: right;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  margin-top: 3px;
 }
 
 .flex-col{
@@ -52,20 +53,25 @@ body{
 input{
   border: 10px;
   border-radius: 10px;
-  padding: 10px;
-  margin-bottom: 10px;
+  padding: 7px;
+  margin-bottom: 3px;
+  text-decoration: none;
   font-weight:bold;
 }
 
+.largeur{
+  width: 100%;
+}
+
 .gris{
-  margin-top: 20px;
-  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 20px;
   margin-left: 5px;
   margin-right:5px;
   padding-right: 10px;
   padding-left: 10px;
   padding-top: 3px;
-  padding-bottom: 1px;
+  padding-bottom: 7px;
   border-radius: 10px;
   background-color: rgb(210, 210, 210);
 }
@@ -85,5 +91,5 @@ h1{
 }
 
 .loin{
-  margin-top: 70px;
+  margin-top: 40px;
 }

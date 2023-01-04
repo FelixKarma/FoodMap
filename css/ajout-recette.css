@@ -1,0 +1,55 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  
+  html {
+      box-sizing: border-box;
+      overflow-x: hidden;
+  }
+
+  body {
+    background: linear-gradient(180deg, #ECC19C 0%, #EC6408 100%);
+    font-family: 'Roboto', sans-serif;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .new-recipe {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .fieldset>label>input, .fieldset>label>textarea {
+    width: 80vw;
+    min-height: 3.5em;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+  }
+
+  .button-add { /* manque un équivalent du :visited pour le tactile*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto auto auto;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333333;
+    text-decoration: none;
+    width: 90%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #989898 100%); 
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 43px;
+    border-radius: 10px;
+  }
+
+  .button-add:hover {
+    background: #FFFFFF;
+	  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset 5px 5px 18px -11px #000000;
+  }

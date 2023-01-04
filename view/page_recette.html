@@ -11,30 +11,55 @@
 <body>
     <header></header>
     <main>
-        <div class="head-recette">
-            <img src="../img/parmigiana.jpg" alt="image du plat à réaliser" class="image-recette"/>
-            <div class="info-recette">
-                <h1>Tacos</h1>
-                <h2>Mexique</h2>
-                <div class="like"></div>
+        <div class="head-recipe">
+            <img src="../img/parmigiana.jpg" alt="image du plat à réaliser" class="image-recipe"/>
+            <div class="info-recipe">
+                <div class="truc">
+                    <div class="title-recipe">
+                        <h1>Tacos</h1>
+                        <h2>Mexique</h2>
+                    </div>
+                    <div class="like">
+                        <img src="../img/empty-heart.svg" alt="">
+                    </div>
+                </div>
+                <div class="note">
+                    <img src="../img/empty-star.svg" alt="">
+                    <img src="../img/empty-star.svg" alt="">
+                    <img src="../img/empty-star.svg" alt="">
+                    <img src="../img/empty-star.svg" alt="">
+                    <img src="../img/empty-star.svg" alt="">
+                </div>
                 <p></p>
                 <div class="note"></div>
                 <div class="moyenne"></div>
             </div>
         </div>
-        <div class="recette">
-            <button class="drop-down">
+        <div class="recipe">
+            <button class="drop-down dropdown-toggle">
                 <img src="../img/carrot.svg" alt="" class="icon">
-                <h2 class="subpart">Ingrédients</h2>
+                <h2>Ingrédients</h2>
                 <img src="../img/drop-img.svg" alt="" class="drop-icon">
             </button>
-            <ul></ul>
-            <button class="drop-down">
+            <div class="dropdown-item">
+                    <ul class="ingredients-list">
+                            <li> 1 lorem</li>
+                            <li>2/3 ipsum</li>
+                            <li>300gr dolor</li>
+                            <li>1 sic amet</li>
+                            <li>3 blabla</li>
+                            <li>une pincée de sel</li>
+                    </ul>
+            </div>
+
+            <button class="drop-down dropdown-toggle">
                 <img src="../img/whisk.svg" alt="" class="icon">
-                <h2 class="subpart">Recette</h2>
+                <h2>Recette</h2>
                 <img src="../img/drop-img.svg" alt="" class="drop-icon">
             </button>
-            <p></p>
+                <div class="dropdown-item recipe-text">
+                    <p>Lorem ipsum dolor sit amet consectetur. Egestas pellentesque nisl dis pretium a. Velit aenean porttitor egestas consequat nibh cras amet eget ut. Aliquam mi consectetur arcu mattis diam facilisis vestibulum. Enim vitae iaculis tortor eget in diam. Habitant sagittis potenti.</p>
+                </div>
         </div>
     </main>
     <footer></footer>
