@@ -1,0 +1,18 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  
+  html {
+      box-sizing: border-box;
+      overflow-x: hidden;
+  }
+
+  body {
+    background: linear-gradient(180deg, #ECC19C 0%, #EC6408 100%);
+    font-family: 'Roboto', sans-serif;
+  }
+
+  ul {
+    display: none;
+  }
