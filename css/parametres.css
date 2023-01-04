@@ -7,17 +7,13 @@
   flex-direction: column;
 }
 
-.container{
-  display: flex;
-}
-
 body{
   background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8));
 }
 
 .bg-white{
   background-color: #ffffff ;
-  padding: 7px;
+  padding: 5px;
   border-radius: 10px;
 }
 
@@ -43,18 +39,14 @@ li{
   align-items: center;
 }
 
-.m-7{
-  margin: 7px;
-}
-
 .p1{
   text-align: right;
 }
 
 input{
-  border: 10px;
+  border: 0px;
   border-radius: 10px;
-  padding: 10px
+  padding: 5px
 }
 
 hr{
@@ -81,7 +73,7 @@ h1{
 .theme2{
   background-image:url("../img/bois1.jpg") ;
   border-radius: 50%;
-  height: 40px;
+  height: 40px; 
   width: 40px;
 }
 
@@ -97,4 +89,19 @@ h1{
   border-radius: 50%;
   height: 40px;
   width: 40px;
+}
+
+td{
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+main{
+  padding: 0px;
+}
+
+.loin{
+  margin-top: 70px;
 }

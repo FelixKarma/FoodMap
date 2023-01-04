@@ -8,49 +8,52 @@
     <link rel="stylesheet" href="../css/parametres.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>page de paramètres</title>
-    <div class="justify-space-around items-center">
-        <img src="../img/FoodMap.png" width="50" height="50" />
-        <h1 class="roboto">FoodMap</h1>
-        <img src="../img/Group.png" width="45" height="45">
-    </div>
-    <hr />
+    
 </head>
 <body>
-    <main class="roboto">
-    <form action="#">
-        <h3 class="couleur">PARAMETRES</h3>
-        <div class="flex-col">
-            <div class="m-7"></div>
-            <div class="m-7">
-                <label class="bg-white">Nom d'utlisateur</label>
-                <div class="p1"><input type="text"></div>
-            </div>
-            <div class="m-7">
-                <label class="bg-white">Adresse mail</label>
-                <div class="p1"><input for="email"></div>
-            </div>
-            <div class="m-7">
-                <label class="bg-white">Numéro de téléphone</label>
-                <div class="p1"><input type="tel"></div>
-            </div>
-            <div class="m-7">
-                <label class="bg-white">Thème</label>
-                <input type="button" class="theme1">
-                <input type="button" class="theme2">
-                <input type="button" class="theme3">
-                <input type="button" class="theme4">
-            </div>
-            <div class="m-7">
-                <label class="bg-white">Mot de passe</label>
-                <div class="p1"><input type="password"></div>
-            </div>
-            <div class="m-7">
-                <label class="bg-white">Notifications</label>
-            </div>
-            <div class="m-7"></div>
+    <header>
+        <div class="justify-space-around items-center">
+            <img src="../img/FoodMap.png" width="50" height="50" />
+            <h1 class="roboto">FoodMap</h1>
+            <img src="../img/Group.png" width="45" height="45">
         </div>
-        <input type="submit" class="bg-bouton" value="Déconnexion">
-    </form>
+        <hr />
+    </header>
+    <main class="roboto">
+        <div class="flex-col">
+            <table>
+                <tr>
+                    <td><label class="bg-white">Nom d'utlisateur</label></td>
+                    <td><div class="p1"><input type="text"></div></td>
+                </tr>
+                <tr>
+                    <td><label class="bg-white">Adresse mail</label></td>
+                    <td><div class="p1"><input for="email"></div></td>
+                </tr>
+                <tr>
+                    <td><label class="bg-white">Numéro de téléphone</label></td>
+                    <td><div class="p1"><input type="tel"></div></td>
+                </tr>
+                <tr>
+                    <td><label class="bg-white">Thème</label></td>
+                    <td><input type="button" class="theme1">
+                    <input type="button" class="theme2">
+                    <input type="button" class="theme3">
+                    <input type="button" class="theme4"></td>
+                </tr>
+                <tr>
+                    <td><label class="bg-white">Mot de passe</label></td>
+                    <td><div class="p1"><input type="password"></div></td>
+                </tr>
+                <tr>
+                    <td><label class="bg-white">Notifications</label></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="loin">
+            <input type="submit" class="bg-bouton" value="Déconnexion">
+        </div>
     </main>
 </body>
 </html>

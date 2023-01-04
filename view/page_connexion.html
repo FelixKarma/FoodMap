@@ -7,29 +7,32 @@
     <link rel="stylesheet" href="../css/connexion.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>page de connexion</title>
-    <div class="justify-space-around items-center">
-        <img src="../img/FoodMap.png" width="50" height="50" />
-        <h1 class="roboto">FoodMap</h1>
-        <img src="../img/Group.png" width="45" height="45">
-    </div>
-    <hr />
 </head>
 <body>
-    <form action="#">
-        <main class="roboto">
-            <div class="flex-col">
-                <div class="m-7"></div>
+    <header>
+        <div class="justify-space-around items-center">
+            <img src="../img/FoodMap.png" width="50" height="50" />
+            <h1 class="roboto">FoodMap</h1>
+            <img src="../img/Group.png" width="45" height="45">
+        </div>
+        <hr />
+    </header>
+    <main class="roboto">
+        <form action="#">
+            <div class="flex-col gris">
                 <label for="utilisateur">Adresse mail ou nom d'utilisateur</label>
                 <input type="text">
                 <label for="mot de passe">Mot de passe</label>
                 <input type="password">
                 <div class="a_droite">
                     <label for="oublie_mdp"><a href="https://fr.wikipedia.org/wiki/HTML5">Mot de passe oublié?</label>
+                </div>
+                <div class="flex-col">
+                    <input type="submit" class="bg-bouton2" value="Se connecter">
+                    <input type="submit" class="bg-bouton" value="S'inscrire">
                 </div>                    
-                <input type="submit" class="bg-bouton2" value="Se connecter">
             </div>
-        </main>
-        <input type="submit" class="bg-bouton" value="S'inscrire">
-    </form>
+        </form>
+    </main>
 </body>
 </html>
