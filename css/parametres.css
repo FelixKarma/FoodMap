@@ -13,7 +13,7 @@ body{
 
 .bg-white{
   background-color: #ffffff ;
-  padding: 5px;
+  padding: 3px;
   border-radius: 10px;
 }
 
@@ -101,7 +101,27 @@ h1{
   background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8)) ;
   border-radius: 50%;
   height: 30px;
-  width: 30x;
+  width: 30px;
+}
+
+.theme1:hover{
+  border: 2px solid black;
+}
+
+.theme2:hover{
+  border: 2px solid black;
+}
+
+.theme3:hover{
+  border: 2px solid black;
+}
+
+.theme4:hover{
+  border: 2px solid black;
+}
+
+.theme5:hover{
+  border: 2px solid black;
 }
 
 td{
@@ -112,6 +132,7 @@ td{
 }
 
 main{
+  margin-top: 30px;
   padding: 0px;
 }
 
