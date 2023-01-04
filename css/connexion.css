@@ -12,10 +12,6 @@
   flex-direction: column;
 }
 
-.couleur{
-  color: #ffffff
-}
-
 .justify-space-around {
   display: flex;
   justify-content: space-around;
@@ -31,11 +27,22 @@
 } 
 
 .bg-bouton{
-  background: linear-gradient(#dddddd, #989898)
+  background: linear-gradient(#dddddd, #989898);
 }
 
-.bg-bouton2{
+.bg-bouton:hover {
+  background: #FFFFFF;
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset 5px 5px 18px -11px #000000;
+}
+
+.bouton2{
   background-color: rgba(52, 136, 239);
+  color:#FFFFFF;
+}
+
+.bouton2:hover {
+  background: #FFFFFF;
+  color: rgb(52, 136, 239);
 }
 
 body{
@@ -60,7 +67,7 @@ input{
   padding-top: 3px;
   padding-bottom: 1px;
   border-radius: 10px;
-  background-color: rgb(200, 200, 200);
+  background-color: rgb(210, 210, 210);
 }
 
 hr{

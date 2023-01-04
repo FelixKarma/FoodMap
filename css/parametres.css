@@ -18,7 +18,13 @@ body{
 }
 
 .bg-bouton{
-  background: linear-gradient(#ffffff, #989898)
+  background: linear-gradient(#ffffff, #989898);
+  font-weight: bold;
+}
+
+.back-home:hover {
+  background: #FFFFFF;
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset 5px 5px 18px -11px #000000;
 }
 
 li{
@@ -66,29 +72,36 @@ h1{
 .theme1{
   background: linear-gradient(rgb(255, 165, 0), rgb(255, 0, 0));
   border-radius: 50%;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
 }
 
 .theme2{
   background-image:url("../img/bois1.jpg") ;
   border-radius: 50%;
-  height: 40px; 
-  width: 40px;
+  height: 30px; 
+  width: 30px;
 }
 
 .theme3{
   background-color: red;
   border-radius: 50%;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
 }
 
 .theme4{
   background: linear-gradient(rgb(236, 100, 8), rgb(151, 75, 255)) ;
   border-radius: 50%;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
+}
+
+.theme5{
+  background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8)) ;
+  border-radius: 50%;
+  height: 30px;
+  width: 30x;
 }
 
 td{
