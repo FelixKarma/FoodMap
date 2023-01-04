@@ -48,3 +48,7 @@
     font-weight: 300;
     margin: 0.5em auto 0 0.5em;
   }
+
+  .drop-down>h2 {
+    color: #333333;
+  }
