@@ -1,0 +1,50 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  
+  html {
+      box-sizing: border-box;
+      overflow-x: hidden;
+  }
+
+  body {
+    background: linear-gradient(180deg, #ECC19C 0%, #EC6408 100%);
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .image-recette {
+    width: 35vw;
+    height: 18vh;
+    object-fit: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+  }
+
+  .head-recette {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .info-recette {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .info-recette>h1, .info-recette>h2 {
+    color: #FFFFFF;
+    line-height: 1em;
+    text-align: left;
+  }
+
+  .info-recette>h1 {
+    font-size: 2.3em;
+    margin: 0.2em auto 0 0.2em;
+  }
+
+  .info-recette>h2 {
+    font-size: 1.3em;
+    font-weight: 300;
+    margin: 0.5em auto 0 0.5em;
+  }
