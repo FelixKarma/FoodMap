@@ -10,5 +10,8 @@
 }
 
 body{
-    background-color:orange
+        background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8));
+}
+.bold{
+    font-weight: bold;
 }
