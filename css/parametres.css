@@ -1,9 +1,10 @@
 .text-center{
-  text-align: center !important;
+  text-align: center;
 }
 
 body{
   background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8));
+  height: 667px;
 }
 
 .bg-white{
@@ -14,8 +15,8 @@ body{
 
 .bg-bouton{
   background: linear-gradient(#ffffff, #989898);
-  padding: 10px;
-  margin-top: 50px;
+  padding: 7px;
+  margin-top: 30px;
   font-weight: bold;
 }
 
@@ -25,108 +26,122 @@ body{
 }
 
 li{
-  display: block !important;
+  display: block;
   }
 
 .couleur{
-  color:#ffffff !important;
-}
-
-.justify-space-around{
-  display: flex !important;
-  justify-content: space-around !important;
-}
-
-.items-center{
-  display: flex !important;
-  align-items: center !important;
+  color:#ffffff;
 }
 
 input{
-  border: 0px !important;
-  border-radius: 10px !important;
-  padding: 5px !important;
-}
-
-hr{
-  background-color: #ffffff;
-  margin-top: 7px;
+  border: 0px;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 .roboto{
-  font-family: 'Roboto', Arial, sans-serif !important;
-}
-
-h1{
-  color:#ffffff !important;
-  font-weight: bold !important;
+  font-family: 'Roboto', Arial, sans-serif;
 }
 
 .theme1{
   background: linear-gradient(rgb(255, 165, 0), rgb(255, 0, 0));
-  border-radius: 50% !important;
+  border-radius: 50%;
   height: 30px;
   width: 30px;
 }
 
 .theme2{
   background-image:url("../img/bois1.jpg");
-  border-radius: 50% !important;
+  border-radius: 50%;
   height: 30px; 
   width: 30px;
 }
 
 .theme3{
   background-color: red;
-  border-radius: 50% !important;
+  border-radius: 50%;
   height: 30px;
   width: 30px;
 }
 
 .theme4{
   background: linear-gradient(rgb(236, 100, 8), rgb(151, 75, 255));
-  border-radius: 50% !important;
+  border-radius: 50%;
   height: 30px;
   width: 30px;
 }
 
 .theme5{
   background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8));
-  border-radius: 50% !important;
+  border-radius: 50%;
   height: 30px;
   width: 30px;
 }
 
 .theme1:hover{
-  border: 2px solid black !important;
+  border: 2px solid black;
 }
 
 .theme2:hover{
-  border: 2px solid black !important;
+  border: 2px solid black;
 }
 
 .theme3:hover{
-  border: 2px solid black !important;
+  border: 2px solid black;
 }
 
 .theme4:hover{
-  border: 2px solid black !important;
+  border: 2px solid black;
 }
 
 .theme5:hover{
-  border: 2px solid black !important;
+  border: 2px solid black;
 }
 
 td{
-  padding-left: 5px !important;
-  padding-right: 5px !important;
-  padding-top: 10px !important;
-  padding-bottom: 15px !important;
+  padding-left: 5px ;
+  padding-right: 5px ;
+  padding-top: 10px ;
+  padding-bottom: 15px ;
 }
 
 main{
-  margin-top: 30px !important;
-  padding: 0px !important;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0px;
 }
 
+a{
+  text-decoration: none;
+}
 
+.separation{
+  display: block;
+  justify-content: space-between;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
