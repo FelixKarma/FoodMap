@@ -2,27 +2,24 @@
   text-align: center;
 }
 
-.flex-col{
-  display: flex;
-  flex-direction: column;
-}
-
 body{
   background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8));
 }
 
 .bg-white{
-  background-color: #ffffff ;
+  background-color: #ffffff;
   padding: 3px;
   border-radius: 10px;
 }
 
 .bg-bouton{
   background: linear-gradient(#ffffff, #989898);
+  padding: 10px;
+  margin-top: 50px;
   font-weight: bold;
 }
 
-.back-home:hover {
+.bg-bouton:hover {
   background: #FFFFFF;
   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset 5px 5px 18px -11px #000000;
 }
@@ -32,27 +29,23 @@ li{
   }
 
 .couleur{
-  color:#ffffff
+  color:#ffffff;
 }
 
-.justify-space-around {
+.justify-space-around{
   display: flex;
   justify-content: space-around;
 }
 
-.items-center {
+.items-center{
   display: flex;
   align-items: center;
-}
-
-.p1{
-  text-align: right;
 }
 
 input{
   border: 0px;
   border-radius: 10px;
-  padding: 5px
+  padding: 5px;
 }
 
 hr{
@@ -77,7 +70,7 @@ h1{
 }
 
 .theme2{
-  background-image:url("../img/bois1.jpg") ;
+  background-image:url("../img/bois1.jpg");
   border-radius: 50%;
   height: 30px; 
   width: 30px;
@@ -91,14 +84,14 @@ h1{
 }
 
 .theme4{
-  background: linear-gradient(rgb(236, 100, 8), rgb(151, 75, 255)) ;
+  background: linear-gradient(rgb(236, 100, 8), rgb(151, 75, 255));
   border-radius: 50%;
   height: 30px;
   width: 30px;
 }
 
 .theme5{
-  background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8)) ;
+  background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8));
   border-radius: 50%;
   height: 30px;
   width: 30px;
@@ -136,6 +129,7 @@ main{
   padding: 0px;
 }
 
-.loin{
-  margin-top: 70px;
+.rond{
+  border-radius: 10px;
 }
+

@@ -8,55 +8,54 @@
     <link rel="stylesheet" href="../css/parametres.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>page de paramètres</title>
-    
 </head>
 <body>
     <header>
         <div class="justify-space-around items-center">
             <img src="../img/FoodMap.png" width="50" height="50" />
             <h1 class="roboto">FoodMap</h1>
-            <img src="../img/Group.png" width="45" height="45">
+            <a href="acc_fiche_profil.html">
+                <img class="rond" src="../img/Group.png" width="45" height="45">
+            </a>
         </div>
         <hr />
     </header>
     <main class="roboto">
-        <div class="flex-col">
-            <table>
-                <tr>
-                    <td><label class="bg-white">Nom d'utlisateur</label></td>
-                    <td><div class="p1"><input type="text"></div></td>
-                </tr>
-                <tr>
-                    <td><label class="bg-white">Adresse mail</label></td>
-                    <td><div class="p1"><input for="email"></div></td>
-                </tr>
-                <tr>
-                    <td><label class="bg-white">Numéro de téléphone</label></td>
-                    <td><div class="p1"><input type="tel"></div></td>
-                </tr>
-                <tr>
-                    <td><label class="bg-white">Thème</label></td>
-                    <td><input type="button" class="theme1">
-                    <input type="button" class="theme2">
-                    <input type="button" class="theme3">
-                    <input type="button" class="theme4">
-                    <input type="button" class="theme5"></td>
-                </tr>
-                <tr>
-                    <td><label class="bg-white">Mot de passe</label></td>
-                    <td><div class="p1"><input type="password"></div></td>
-                </tr>
-                <tr>
-                    <td><label class="bg-white">Notifications</label></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-            </table>
-        </div>
-        <div class="loin">
-            <a href="page_connexion.html">
-                <input type="button" class="bg-bouton back-home" value="Déconnexion">
-            </a>
-        </div>
+        <table>
+            <tr>
+                <td><label class="bg-white">Nom d'utlisateur</label></td>
+                <td><input type="text" value="@nabtb"></td>
+            </tr>
+            <tr>
+                <td><label class="bg-white">Adresse mail</label></td>
+                <td><input for="email" value="Nadio@Outlook.fr"></td>
+            </tr>
+            <tr>
+                <td><label class="bg-white">Numéro de téléphone</label></td>
+                <td><input type="tel" value="0123456789"></td>
+            </tr>
+            <tr>
+                <td><label class="bg-white">Thème</label></td>
+                <td><input type="button" class="theme1">
+                <input type="button" class="theme2">
+                <input type="button" class="theme3">
+                <input type="button" class="theme4">
+                <input type="button" class="theme5"></td>
+            </tr>
+            <tr>
+                <td><label class="bg-white">Mot de passe</label></td>
+                <td><input type="password" value="0123456"></td>
+            </tr>
+            <tr>
+                <td><label class="bg-white">Notifications</label></td>
+                <td><input type="checkbox"></td>
+            </tr>
+        </table>
+        <a href="page_connexion.html">
+            <input type="submit" class="bg-bouton" value="Déconnexion">
+        </a>
+        <input type="submit" class="bg-bouton" value="Suppression">
     </main>
+    <script src="parametres.js"></script>
 </body>
 </html>

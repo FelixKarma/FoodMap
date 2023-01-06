@@ -1,5 +1,5 @@
 *, *::before, *::after {
-    box-sizing: inherit;
+    box-sizing: inherit !important; 
   }
   
   
@@ -10,7 +10,7 @@
 
   body {
     background: linear-gradient(180deg, #ECC19C 0%, #EC6408 100%);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif !important;
   }
 
   /*infos recette*/
@@ -23,19 +23,21 @@
   }
 
   .head-recipe {
-    display: flex;
-    align-items: flex-start;
+    display: flex !important;
+    justify-content: space-around!important;
+    align-items: center !important;
+    margin: 15% 15% 0 15%;
   }
 
   .info-recipe {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* display: flex !important;  */
+    flex-direction: column !important;
+    align-items: center !important;
   }
 
   .truc {
     width: 60vw;
-    display: flex;
+    display: flex !important;
     justify-content: space-between;
   }
 
@@ -78,8 +80,9 @@
   .drop-down {
     display: flex;
     justify-content: space-between;
-    width: 80vw;
-    margin: 0 auto 20px;
+    width: 80vw !important;
+    margin: 0 auto 20px !important;
+    padding: 0.3em;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
     border: none;
@@ -96,6 +99,7 @@
 
   .recipe {
     height: 75vh;
+    width: 100vw;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -107,12 +111,36 @@
     color: #FFFFFF;
     background-color: #333333;
     border-radius: 0 0 10px 10px;
-    width: 80vw;
-    max-height: 40vh;
-    overflow: scroll;
-    margin: 0 auto 10px;
+    width: 74vw;
+    height: 40vh !important;
+    margin: 0 auto 10px !important;
+  }
+
+  .ingredients{
+    position: relative;
+  }
+
+  .recette{
+    position: relative;
+  }
+
+  .ingredients-list {
+    padding: 10px 0 10px 20px;
   }
 
   .recipe-text {
-    padding: 0 1em;
+    text-align: inherit !important;
+    padding: 10px 0 10px 20px;
+  }
+
+  .dropdown-item-text {
+    display: none;
+    color: #FFFFFF;
+    background-color: #333333;
+    border-radius: 0 0 10px 10px;
+    width: 76vw;
+    height: 40vh !important;
+    margin: 0 auto 10px !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
   }
