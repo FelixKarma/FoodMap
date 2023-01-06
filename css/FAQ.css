@@ -1,3 +1,9 @@
+body{
+    background: linear-gradient(180deg, #ECC19C 0%, #EC6408 100%);
+    font-family: 'Roboto', sans-serif;
+    height: 667px;
+}  
+
 .text-center{
     text-align: center;
 }
@@ -8,6 +14,3 @@
     text-align: justify;
   }
 
-body{
-    background-color:orange
-}
