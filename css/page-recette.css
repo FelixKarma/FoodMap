@@ -11,6 +11,7 @@
   body {
     background: linear-gradient(180deg, #ECC19C 0%, #EC6408 100%);
     font-family: 'Roboto', sans-serif !important;
+    height: 100vh;
   }
 
   /*infos recette*/
@@ -26,7 +27,7 @@
     display: flex !important;
     justify-content: space-around!important;
     align-items: center !important;
-    margin: 15% 15% 0 15%;
+    margin: 0 15% 0 15%;
   }
 
   .info-recipe {
@@ -98,9 +99,9 @@
   }
 
   .recipe {
-    height: 75vh;
-    width: 100vw;
-    margin-top: 50px;
+    height: 75%;
+    width: 100%;
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;

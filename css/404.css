@@ -4,9 +4,9 @@
   
   
   html {
-      box-sizing: border-box;
-      overflow-x: hidden;
-  }
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
 
   body {
     background: linear-gradient(180deg, #ECC19C 0%, #EC6408 100%);
@@ -15,10 +15,10 @@
 
 
   main {
-    height: 80vh;
+    height: 90vh;
     width: 80vw;
     margin: 0 auto;
-    padding: 0 0 25% 0;
+    padding: 10% 0 25% 0;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
