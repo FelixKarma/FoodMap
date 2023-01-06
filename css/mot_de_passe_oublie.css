@@ -22,6 +22,7 @@ p{
 
 body{
     background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8));
+    height: 667px;
 }
 
 hr{
@@ -80,7 +81,7 @@ main{
 
 .gris{
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 50px;
     margin-left: 5px;
     margin-right:5px;
@@ -90,4 +91,8 @@ main{
     padding-bottom: 1px;
     border-radius: 10px;
     background-color: rgb(210, 210, 210);
+}
+
+header{
+    padding-top: 18px;
 }

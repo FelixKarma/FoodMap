@@ -14,30 +14,36 @@
     height: 100vh;
   }
 
+  main{
+    margin-left:10px ;
+    margin-right:10px ;
+    margin-bottom:90px ;
+    position: relative;
+   }
+
   /*infos recette*/
+  
+  .head-recipe {
+    display: flex !important;
+    justify-content: flex-start!important;
+    align-items: center !important;
+    margin: auto auto auto 1em;
+  }
+  
   .image-recipe {
-    width: 35vw;
-    height: 18vh;
+    width: 7em;
+    height: 7em;
+    margin: 0;
     object-fit: cover;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 15px;
   }
 
-  .head-recipe {
-    display: flex !important;
-    justify-content: space-around!important;
-    align-items: center !important;
-    margin: 0 15% 0 15%;
-  }
-
   .info-recipe {
-    /* display: flex !important;  */
-    flex-direction: column !important;
-    align-items: center !important;
+    width: 60%;
   }
 
   .truc {
-    width: 60vw;
     display: flex !important;
     justify-content: space-between;
   }
@@ -74,15 +80,14 @@
   .like {
     display: flex;
     justify-content: flex-end;
-    margin-right: 10px;
   }
 
   /*boutons drop-down*/
-  .drop-down {
+  button {
     display: flex;
     justify-content: space-between;
     width: 80vw !important;
-    margin: 0 auto 20px !important;
+    margin: 0 auto;
     padding: 0.3em;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
@@ -90,12 +95,16 @@
     border-radius: 10px;
   }
 
-  .drop-down>h2 {
+  button>h2 {
     color: #333333;
   }
 
   .icon, .drop-icon {
     margin: auto 1em;
+  }
+
+  .boutondesesm {
+    margin: 0 auto 1em auto;
   }
 
   .recipe {
@@ -107,41 +116,30 @@
     align-items: flex-start;
   }
 
-  .dropdown-item {
-    display: none;
+  .truccache {
     color: #FFFFFF;
     background-color: #333333;
     border-radius: 0 0 10px 10px;
-    width: 74vw;
-    height: 40vh !important;
-    margin: 0 auto 10px !important;
-  }
-
-  .ingredients{
-    position: relative;
-  }
-
-  .recette{
-    position: relative;
+    width: 100%;
   }
 
   .ingredients-list {
     padding: 10px 0 10px 20px;
   }
 
-  .recipe-text {
+  /*.recipe-text {
     text-align: inherit !important;
     padding: 10px 0 10px 20px;
-  }
+  }*/
 
-  .dropdown-item-text {
-    display: none;
+  .trucccache-text {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0 10px 20px;
+    max-height: 20vh;
     color: #FFFFFF;
     background-color: #333333;
     border-radius: 0 0 10px 10px;
-    width: 76vw;
-    height: 40vh !important;
-    margin: 0 auto 10px !important;
     overflow-x: hidden;
     overflow-y: scroll;
   }
