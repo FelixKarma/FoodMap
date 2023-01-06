@@ -8,30 +8,26 @@
     align-items: center;
 }
 
-  footer{
-    background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8));
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-
- }
  .align-items{
     display: flex;
     align-items: flex-end;
  }
  hr{
-    background-color: #ffffff;
-    margin-top: 10px;
+    background-color: #ffffff !important;
+    margin-top: 10px !important;
+    padding: 1px;
+    opacity: 1 !important;
+    border-top: 0 !important;
  }
 
  .smile{
-    margin-bottom: 5px;
+    margin-bottom: 5px !important;
  }
 
  .bouton1,.bouton2{
-    font-size: xx-large;
-    color: white;
-    text-decoration: none;
+    font-size: xx-large !important;
+    color: white !important;
+    text-decoration: none !important;
  }
  
  
