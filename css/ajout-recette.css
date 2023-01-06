@@ -33,6 +33,18 @@
     font-size: 1em;
   }
 
+  .fauxfieldset {
+    width: 80vw;
+    min-height: 3.5em;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    text-align: left;
+    color: #919191;
+    background-color: #FFFFFF;
+  }
+
   .button-add { /* manque un équivalent du :visited pour le tactile*/
     display: flex;
     justify-content: center;
