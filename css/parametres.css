@@ -1,10 +1,5 @@
 .text-center{
-  text-align: center;
-}
-
-.flex-col{
-  display: flex;
-  flex-direction: column;
+  text-align: center !important;
 }
 
 body{
@@ -12,47 +7,45 @@ body{
 }
 
 .bg-white{
-  background-color: #ffffff ;
+  background-color: #ffffff;
   padding: 3px;
   border-radius: 10px;
 }
 
 .bg-bouton{
   background: linear-gradient(#ffffff, #989898);
+  padding: 10px;
+  margin-top: 50px;
   font-weight: bold;
 }
 
-.back-home:hover {
+.bg-bouton:hover {
   background: #FFFFFF;
   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset 5px 5px 18px -11px #000000;
 }
 
 li{
-  display: block;
+  display: block !important;
   }
 
 .couleur{
-  color:#ffffff
+  color:#ffffff !important;
 }
 
-.justify-space-around {
-  display: flex;
-  justify-content: space-around;
+.justify-space-around{
+  display: flex !important;
+  justify-content: space-around !important;
 }
 
-.items-center {
-  display: flex;
-  align-items: center;
-}
-
-.p1{
-  text-align: right;
+.items-center{
+  display: flex !important;
+  align-items: center !important;
 }
 
 input{
-  border: 0px;
-  border-radius: 10px;
-  padding: 5px
+  border: 0px !important;
+  border-radius: 10px !important;
+  padding: 5px !important;
 }
 
 hr{
@@ -61,81 +54,79 @@ hr{
 }
 
 .roboto{
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif !important;
 }
 
 h1{
-  color:#ffffff;
-  font-weight: bold;
+  color:#ffffff !important;
+  font-weight: bold !important;
 }
 
 .theme1{
   background: linear-gradient(rgb(255, 165, 0), rgb(255, 0, 0));
-  border-radius: 50%;
+  border-radius: 50% !important;
   height: 30px;
   width: 30px;
 }
 
 .theme2{
-  background-image:url("../img/bois1.jpg") ;
-  border-radius: 50%;
+  background-image:url("../img/bois1.jpg");
+  border-radius: 50% !important;
   height: 30px; 
   width: 30px;
 }
 
 .theme3{
   background-color: red;
-  border-radius: 50%;
+  border-radius: 50% !important;
   height: 30px;
   width: 30px;
 }
 
 .theme4{
-  background: linear-gradient(rgb(236, 100, 8), rgb(151, 75, 255)) ;
-  border-radius: 50%;
+  background: linear-gradient(rgb(236, 100, 8), rgb(151, 75, 255));
+  border-radius: 50% !important;
   height: 30px;
   width: 30px;
 }
 
 .theme5{
-  background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8)) ;
-  border-radius: 50%;
+  background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8));
+  border-radius: 50% !important;
   height: 30px;
   width: 30px;
 }
 
 .theme1:hover{
-  border: 2px solid black;
+  border: 2px solid black !important;
 }
 
 .theme2:hover{
-  border: 2px solid black;
+  border: 2px solid black !important;
 }
 
 .theme3:hover{
-  border: 2px solid black;
+  border: 2px solid black !important;
 }
 
 .theme4:hover{
-  border: 2px solid black;
+  border: 2px solid black !important;
 }
 
 .theme5:hover{
-  border: 2px solid black;
+  border: 2px solid black !important;
 }
 
 td{
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 10px;
-  padding-bottom: 15px;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  padding-top: 10px !important;
+  padding-bottom: 15px !important;
 }
 
 main{
-  margin-top: 30px;
-  padding: 0px;
+  margin-top: 30px !important;
+  padding: 0px !important;
 }
 
-.loin{
-  margin-top: 70px;
-}
+

@@ -36,12 +36,12 @@
   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset 5px 5px 18px -11px #000000;
 }
 
-.bouton2{
+.bouton3{
   background-color: rgba(52, 136, 239);
   color:#FFFFFF;
 }
 
-.bouton2:hover {
+.bouton3:hover {
   background: #FFFFFF;
   color: rgb(52, 136, 239);
 }
@@ -64,7 +64,7 @@ input{
 }
 
 .gris{
-  margin-top: 50px;
+  margin-top: 15px;
   margin-bottom: 20px;
   margin-left: 5px;
   margin-right:5px;
@@ -88,8 +88,4 @@ hr{
 h1{
   color: #ffffff;
   font-weight: bold;
-}
-
-.loin{
-  margin-top: 40px;
 }
