@@ -1,0 +1,34 @@
+.justify-space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.items-center {
+    display: flex;
+    align-items: center;
+}
+
+  footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+ } 
+ .align-items{
+    display: flex;
+    align-items: flex-end;
+ }
+ hr{
+    background-color: #ffffff;
+    margin-top: 10px;
+ }
+
+ .smile{
+    margin-bottom: 5px;
+ }
+
+ .bouton1,.bouton2{
+    font-size: xx-large;
+    color: white;
+    text-decoration: none;
+ }
