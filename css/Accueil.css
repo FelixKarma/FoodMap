@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(180deg, #ECC19C 0%, #EC6408 100%);
+    font-family: 'Roboto', sans-serif;
+    height: 667px;
+}  
+
+
+  
+.Carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.backgroundmap {
+height: 170px;
+width: 290px;
+padding-left: 8px;
+background-color: #9BE3FF;
+border: white;
+border-style: solid;
+border-width: 7px;
+margin: 100px 25px 20px 25px;
+border-radius: 5px / 5px;
+}
+
+.Dots{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  }
+
+.Dot{
+  margin-left: 5px;
+}
