@@ -67,7 +67,7 @@ align-items: center;
     box-shadow: 100px;
     background: white;
     height: 30px;
-    width: 170px;
+    width: 200px;
     padding: 20px;
     transition: width 2s, transform 2s;
 }
