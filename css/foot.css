@@ -9,7 +9,7 @@
 }
 
   footer{
-    background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8));
+   background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8));
     position: fixed;
     bottom: 0;
     width: 100%;
