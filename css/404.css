@@ -6,6 +6,7 @@
   html {
     box-sizing: border-box;
     overflow-x: hidden;
+    height: 100%;
 }
 
   body {
@@ -15,7 +16,7 @@
 
 
   main {
-    height: 90vh;
+    height: 90%;
     width: 80vw;
     margin: 0 auto;
     padding: 10% 0 25% 0;
