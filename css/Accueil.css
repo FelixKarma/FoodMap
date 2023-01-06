@@ -4,7 +4,16 @@ body{
     height: 667px;
 }  
 
+.ZonedeRecherche {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 75px;
+}
 
+.InputSearch {
+  padding-top: 25px;
+}
   
 .Carousel {
   display: flex;
