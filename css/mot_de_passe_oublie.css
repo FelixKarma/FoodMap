@@ -2,16 +2,6 @@
     text-align: center;
 }
 
-.justify-space-around{
-    display: flex;
-    justify-content: space-around;
-}
-  
-.items-center{
-    display: flex;
-    align-items: center;
-}
-
 p{
     margin-bottom: 35px;
 }
@@ -54,6 +44,8 @@ input{
 
 main{
     padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .img{
@@ -84,7 +76,7 @@ main{
     margin-top: 20px;
     margin-bottom: 50px;
     margin-left: 5px;
-    margin-right:5px;
+    margin-right: 5px;
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 3px;
@@ -93,6 +85,3 @@ main{
     background-color: rgb(210, 210, 210);
 }
 
-header{
-    padding-top: 18px;
-}
