@@ -18,13 +18,14 @@
     display: none;
   }
 
-  .new-recipe {
+  #ajout-recette{
     height: 80vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .fieldset>label>input, .fieldset>label>textarea {
+  .fieldset>label>input {
     width: 80vw;
     min-height: 3.5em;
     margin: 10px;
@@ -45,6 +46,49 @@
     background-color: #FFFFFF;
   }
 
+
+  /* Boites modales*/
+  .modal-title {
+    color: #333333;
+  }
+
+  .recipe-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  textarea {
+    width: 88vw;
+    height: 60vh;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    border: none;
+    color: #333333;
+  }
+
+  .modal-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .modal-footer>button {
+    margin: 0 10px;
+    background-color: #FFFFFF;
+    border: none;
+  }
+
+  .modal-body>button {
+    border-radius: 10px;
+    border: none;
+    padding: 2px 5px 2px 5px;
+  }
+
+  .modal-body>button>img {
+    margin:auto;
+  }
+
+
   .button-add { /* manque un équivalent du :visited pour le tactile*/
     display: flex;
     justify-content: center;
@@ -54,7 +98,7 @@
     font-size: 1.5em;
     color: #333333;
     text-decoration: none;
-    width: 90%;
+    width: 75vw;
     background: linear-gradient(180deg, #FFFFFF 0%, #989898 100%); 
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
