@@ -49,7 +49,8 @@
 
   /* Boites modales*/
   .modal-title {
-    color: #333333;
+    color: #333333!important;
+    font-weight: 100!important;
   }
 
   .recipe-area {
