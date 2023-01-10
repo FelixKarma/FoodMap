@@ -11,7 +11,24 @@ body{
     align-items: center;
 }
 
+.searchtext {
+    height: 45px;
+    width: 190px;
+    border: none;
+    border-radius: 40px;
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: gray;
+    margin-top: 45px;
+    transition: width 2s, transform 2s; 
+    transition: ease-in 0.4s;
+}
 
+.searchtext:focus{
+    width: 230px;
+    height: 70px;
+} 
 
 .backgroundmap {
 height: 170px;
@@ -21,53 +38,17 @@ background-color: #9BE3FF;
 border: white;
 border-style: solid;
 border-width: 7px;
-margin: 65px 25px 20px 25px;
+margin: 55px 25px 20px 25px;
 border-radius: 10px;
 }
 
-.Dots{
+.dots{
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
 }
           
-.Dot{
+.dot{
  margin-left: 5px;
-}
-
-
-
-.searchtext {
-    border: none;
-    border-radius: 40px;
-    background: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    color: gray;
-    line-height: 30px;
-    width: 500px;
-    padding-left: 5px;   
-    transition: ease-in 0.4s;
-}
-
-.searchzone > .searchtext:focus{
-    width: 200px;
-    padding: 30px 50px;
-} 
-
-.searchzone {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    border: hidden;
-    border-radius: 40px;
-    box-shadow: 100px;
-    background: white;
-    height: 30px;
-    width: 200px;
-    padding: 20px;
-    transition: width 2s, transform 2s;
 }
