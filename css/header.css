@@ -1,29 +1,33 @@
 .justify-space-around {
-    display: flex;
-    justify-content: space-around;
+    display: flex !important;
+    justify-content: space-around !important;
 }
 
 .items-center {
-    display: flex;
-    align-items: center;
+    display: flex !important;
+    align-items: center !important;
 }
 
 .roboto{
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif !important;
   }
-  hr{
-    background-color: #ffffff;
-    margin-top: 7px;
- 
-     
-  }
-  h1{
-    color: #fdf7f7;
-   
-  }
-  img{
-    margin-top: 10px;
-  }
-  body{
-    margin: 0%;
-  }
+
+hr{
+    background-color: #ffffff !important;
+    margin-top: 7px !important;
+    
+}
+
+h1{
+    color: #fdf7f7 !important;
+    font-weight: bold !important;
+}
+
+img{
+    margin-top: 10px !important;
+    border-radius: 10px !important; 
+}
+
+body{
+    margin: 0% !important;
+}

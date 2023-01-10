@@ -1,23 +1,23 @@
 .justify-space-around {
-    display: flex;
-    justify-content: space-around;
+    display: flex !important;
+    justify-content: space-around !important;
 }
 
 .items-center {
-    display: flex;
-    align-items: center;
+    display: flex !important;
+    align-items: center !important;
 }
 
   footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    right: 0;
+    position: fixed !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    right: 0 !important;
 
  } 
  .align-items{
-    display: flex;
-    align-items: flex-end;
+    display: flex !important;
+    align-items: flex-end !important;
  }
  hr{
     background-color: #ffffff !important;

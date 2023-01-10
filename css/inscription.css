@@ -23,16 +23,6 @@ li{
     color:#ffffff
 }
 
-.justify-space-around {
-    display: flex;
-    justify-content: space-around;
-}
-
-.items-center {
-    display: flex;
-    align-items: center;
-}
-
 .bouton{
     background-color: rgba(52, 136, 239);
     color:#FFFFFF;
@@ -81,4 +71,9 @@ h1{
 
 .largeur{
     width: 100%;
+}
+
+main{
+    padding-left: 5px;
+    padding-right: 5px;
 }

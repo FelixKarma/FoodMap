@@ -15,9 +15,11 @@
     <!-- header -->
     <header>
         <div class="justify-space-around items-center">
-            <img src="../img/FoodMap.png" alt="" width="80" height="80">
+            <a href="Accueil.html">
+                <img src="../img/FoodMap.png" width="60" height="60" />
+            </a>
             <h1 class="roboto">FoodMap</h1>
-           <a href="acc_fiche_profil.html"><img src="../img/Group.png"width="55" height="50"> </a> 
+            <a href="http://127.0.0.1:5502/FoodMap/view/acc_fiche_profil.html"><img src="../img/Group.png"width="55" height="50"> </a> 
         </div>
         <hr />
 
@@ -37,33 +39,86 @@
                         <input type="text" id="recipe-country" name="recipe-country" placeholder="Pays" required/>
                     </label>
                 </div>
-                <div class="fieldset">
-                    <label for="ingredients">
-                        <input type="text" id="ingredients" name="ingredients" placeholder="Mes ingrédients" required/>
-                    </label>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
+                
+<!-- Mes ingrédients -->
+<button class="fauxfieldset" type="button" data-bs-toggle="modal" data-bs-target="#newIngredientsList">
+    Mes ingrédients
+</button>
 
-                    <button class="fauxfieldset" type="button">
-                        Ma recette
-                        <div class="">
-                            <label for="recipe" class="">
-                                <textarea name="recipe" id="recipe" placeholder="Ma recette" required></textarea>
-                            </label>
-                        </div>
-                    </button>
+<div class="modal fade" id="newIngredientsList" tabindex="-1" data-bs-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">    
+        <div class="modal-header">
+                <h1 class="modal-title fs-5" id="newIngredientsList">Mes ingrédients</h1>
+            </div>                        
+            <div class="modal-body">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p>Ajouter un ingrédient:</p>
+                <input type="text" id="new-ingredient" name="new-ingredient" placeholder="Nouvel ingrédient" required/>
+                <button type="button"><img src="../img/add.svg" alt="add button"></button>
+            </div>
+            <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal"><img class="modal-button" src="../img/discard.svg" alt="Discard button"></button>
+                    <button type="button"><img class="modal-button" src="../img/save-changes.svg" alt="Save changes button"></button>
+            </div>
+        </div>
+    </div>
+</div>
 
-                <div class="fieldset">
-                    <label for="tags">
-                        <input type="text" id="" name="" placeholder="Ajouter des filtres" required/>
-                    </label>
-                </div>
+<!-- Ma recette -->            
+<button class="fauxfieldset" type="button" data-bs-toggle="modal" data-bs-target="#newRecipe">
+    Ma recette
+</button>
+
+<div class="modal fade" id="newRecipe" tabindex="-1" data-bs-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">    
+        <div class="modal-header">
+                <h1 class="modal-title fs-5" id="newRecipe">Ma recette</h1>
+            </div>                        
+            <div class="modal-body">
+                <label for="recipe" class="recipe-area">
+                    <textarea name="recipe" id="recipe" placeholder="Ajouter, mixer, etc" required></textarea>
+                </label>
+            </div>
+            <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal"><img class="modal-button" src="../img/discard.svg" alt="Discard button"></button>
+                    <button type="button"><img class="modal-button" src="../img/save-changes.svg" alt="Save changes button"></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Filtres -->
+<button class="fauxfieldset" type="button" data-bs-toggle="modal" data-bs-target="#filtersList">
+Ajouter des filtres
+</button>
+
+<div class="modal fade" id="filtersList" tabindex="-1" data-bs-backdrop="static">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">    
+<div class="modal-header">
+    <h1 class="modal-title fs-5" id="filtersList">Ajouter des filtres</h1>
+</div>                        
+<div class="modal-body">
+    <p>Nouveau filtre:</p>
+        <input type="text" id="new-filter" name="new-filter" placeholder="Nouveau filtre" required/>
+        <button type="button"><img src="../img/add.svg" alt="add button"></button>
+</div>
+<div class="modal-footer">
+        <button type="button" data-bs-dismiss="modal"><img class="modal-button" src="../img/discard.svg" alt="Discard button"></button>
+        <button type="button"><img class="modal-button" src="../img/save-changes.svg" alt="Save changes button"></button>
+</div>
+</div>
+</div>
+</div>
+                
                 <div>
                     <input class="button-add" type="submit" value="Ajouter" id="add-recipe"/>
                 </div>
@@ -77,8 +132,10 @@
             <hr />
             <div class="justify-space-around items-center">
                 <a class="bouton1" href=javascript:history.go(-1) > &#8676; </a>
-                <img src="../img/Mascotte.png" alt="" class="smile" width="50" height="50">
-                <a class="bouton2" href="FAQ.html" > &#8253; </a>
+                <a href="http://127.0.0.1:5501/view/ajout_recette.html">
+                    <img src="../img/Mascotte.png" alt="" class="smile" width="50" height="50">
+                </a>
+                <a class="bouton2" href="http://127.0.0.1:5502/FoodMap/view/FAQ.html" > &#8253; </a>
             </div>
            </form> 
     </footer>

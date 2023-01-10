@@ -7,17 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/inscription.css">
     <link rel="stylesheet" href="../css/foot.css">
+    <link rel="stylesheet" href="../css/header.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Page d'inscription</title>
 </head>
 <body>
     <header>
         <div class="justify-space-around items-center">
-            <img src="../img/FoodMap.png" width="50" height="50" />
-            <h1 class="roboto">FoodMap</h1>
-            <a href="acc_fiche_profil.html">
-                <img src="../img/Group.png" width="45" height="45">
+            <a href="Accueil.html">
+                <img src="../img/FoodMap.png" width="60" height="60" />
             </a>
+            <h1 class="roboto">FoodMap</h1>
+            <a href="page_profil.html">
+                <img src="../img/Group.png"width="55" height="55">
+            </a> 
         </div>
         <hr />
     </header>
@@ -63,12 +66,16 @@
         </form>
     </main>
     <footer>
-        <hr />
-        <div class="justify-space-around items-center">
-            <a class="bouton1" href=javascript:history.go(-1) > &#8676; </a>
-            <img src="../img/Mascotte.png" alt="" class="smile" width="50" height="50">
-                <a class="bouton2" href="FAQ.html" > &#8253; </a>
-            </div> 
+        <form action="#">
+            <hr />
+            <div class="justify-space-around items-center">
+                <a class="bouton1" href=javascript:history.go(-1) > &#8676; </a>
+                <a href="http://127.0.0.1:5501/view/ajout_recette.html">
+                    <img src="../img/Mascotte.png" alt="" class="smile" width="50" height="50">
+                </a>
+                <a class="bouton2" href="http://127.0.0.1:5502/FoodMap/view/FAQ.html" > &#8253; </a>
+            </div>
+           </form> 
     </footer>
 </body>
 </html>
