@@ -1,8 +1,6 @@
 body{
-    background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8)) !important;
-    height: 667px !important;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+    background: linear-gradient(rgb(236, 183, 141), rgb(236, 100, 8));
+    height: 667px;
   }
 
 .text-center{
@@ -10,53 +8,33 @@ body{
 }
 
 h3{
-    color:#FFFFFF
+    color:#FFFFFF;
+    margin-bottom: 3px;
+    margin-top: 15px;
 }
 
 .blanc{
     color:#FFFFFF
 }
 
-#carrousel{
-    height: 100px;
-    width: 200px;
-    border: 2px;
-    box-shadow: 0 0 14px rgb(0, 0, 0.3);
-    position: relative;
+.block{
+    display:block;
 }
 
-#container{
-    height: 200px;
-    width: 400px;
+.m-20{
+    margin-top:20px;
+    margin-bottom:20px;
 }
 
-.bouton{
-    position: absolute;
-    height: 50px;
-    width: 30px;
-    cursor: pointer;
-    top: 100px;
+.flex{
+    display:flex;
 }
 
-#g{
-    left: 0;
-    opacity: 0.4px;
-    transform: rotate(0deg);
-
+.roboto{
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
-#d{
-    right: 0;
-    opacity: 0.4px;
-    transform: rotate(180deg);
-}
-
-#g:hover{
-    transform: rotate(0deg) scale(1.1);
-    opacity: 1;
-}
-
-#d:hover{
-    transform: rotate(180deg) scale(1.1);
-    opacity: 1;
+main{
+    padding-left: 10px;
+    padding-right: 10px;
 }
