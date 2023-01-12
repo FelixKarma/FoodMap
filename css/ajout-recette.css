@@ -85,10 +85,6 @@
     padding: 2px 5px 2px 5px;
   }
 
-  .modal-body>button>img {
-    margin:auto;
-  }
-
 
   .button-add { /* manque un équivalent du :visited pour le tactile*/
     display: flex;
@@ -110,4 +106,13 @@
   .button-add:hover {
     background: #FFFFFF;
 	  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset 5px 5px 18px -11px #000000;
+  }
+
+  /* Éléments dynamiques */
+  .frame, .small-frame {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+  }
+  .frame>p {
+    padding-left: 10px;;
   }
