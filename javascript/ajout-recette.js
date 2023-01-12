@@ -20,10 +20,12 @@ function getValue() {
     newDiv2.classList.add('frame');
     let newIng2 = document.createElement('p');
     newIng2.innerText = input;
+    let buttonDelete = document.createElement('button');
     let deleteImg = document.createElement('img');
     deleteImg.src = '../img/delete.svg';
     newDiv2.append(newIng2);
-    newDiv2.append(deleteImg);
+    buttonDelete.append(deleteImg);
+    newDiv2.append(buttonDelete);
     ingredientsTest2.append(newDiv2);
 
 }

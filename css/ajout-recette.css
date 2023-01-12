@@ -27,7 +27,7 @@
 
   .fieldset>label>input {
     width: 80vw;
-    min-height: 3.5em;
+    min-height: 3em;
     margin: 10px;
     border: none;
     border-radius: 10px;
@@ -36,7 +36,7 @@
 
   .fauxfieldset {
     width: 80vw;
-    min-height: 3.5em;
+    min-height: 3em;
     margin: 10px;
     border: none;
     border-radius: 10px;
@@ -46,6 +46,10 @@
     background-color: #FFFFFF;
   }
 
+  .recipe-image>label {
+    display: flex;
+    justify-content: center;
+  }
 
   /* Boites modales*/
   .modal-title {
@@ -116,9 +120,6 @@
   .frame>p, .small-frame>p {
     padding-left: 10px;
   }
-
-  #ingredients2-test {
-    }
 
   .frame {
     margin: 10px;
