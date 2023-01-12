@@ -13,42 +13,56 @@
 
 <body>
 
-<!-- Header -->
-<header>
-    <div class="justify-space-around items-center">
-        <a href="Accueil.html">
-            <img src="../img/FoodMap.png" width="60" height="60" />
-        </a>
-        <h1 class="roboto">FoodMap</h1>
-        <a href="acc_fiche_profil.html"><img src="../img/Group.png"width="55" height="50"> </a> 
-    </div>
-    <hr />
+    <!-- Header -->
+    <header>
+        <div class="justify-space-around items-center">
+            <a href="Accueil.html">
+                <img src="../img/FoodMap.png" width="60" height="60" />
+            </a>
+            <h1 class="roboto">FoodMap</h1>
+            <a href="acc_fiche_profil.html"><img src="../img/Group.png" width="55" height="50"> </a>
+        </div>
+        <hr />
 
     </header>
 
     <!-- Main -->
 
     <main class="main">
-          
-          <button class="boutonquestionaposer">Une question à nous poser .?</button>
 
-          <button class="zonequestion" onclick="myFunction()">Qui sommes-nous ?</button>
+        <a href="/FoodMap/view/Formulaire Question.html">
+            <button class="boutonquestionaposer">Une question à nous poser .?</button>
+        </a>
 
-          <div class="zonereponse" id="myDIV1">
+        <button class="zonequestion" onclick="myFunction(0)">Qui sommes-nous ?</button>
+
+        <div class="zonereponse" id="myDIV1">
             FlipFloup
-          </div> 
+        </div>
 
-          <button class="zonequestion" onclick="myFunction()">Qui sommes-nous ?</button>
+        <button class="zonequestion" onclick="myFunction(1)">Qui sommes-nous ?</button>
 
-          <div class="zonereponse" id="">
+        <div class="zonereponse" id="myDIV2">
             FlipFloup
-          </div>
+        </div>
 
-          <button class="zonequestion" onclick="myFunction()">Qui sommes-nous ?</button>
+        <button class="zonequestion" onclick="myFunction(2)">Qui sommes-nous ?</button>
 
-          <div class="zonereponse" id="">
+        <div class="zonereponse" id="myDIV3">
             FlipFloup
-          </div>
+        </div>
+
+        <button class="zonequestion" onclick="myFunction(3)">Qui sommes-nous ?</button>
+
+        <div class="zonereponse" id="myDIV4">
+            FlipFloup
+        </div>
+
+        <button class="zonequestion" onclick="myFunction(4)">Qui sommes-nous ?</button>
+
+        <div class="zonereponse" id="myDIV5">
+            FlipFloup
+        </div>
 
     </main>
 
@@ -58,17 +72,17 @@
         <form action="#">
             <hr />
             <div class="justify-space-around items-center">
-                <a class="bouton1" href=javascript:history.go(-1) > &#8676; </a>
+                <a class="bouton1" href=javascript:history.go(-1)> &#8676; </a>
                 <a href="ajout_recette.html">
                     <img src="../img/Mascotte.png" alt="" class="smile" width="50" height="50">
                 </a>
-                <a class="bouton2" href="FAQ.html" > &#8253; </a>
+                <a class="bouton2" href="FAQ.html"> &#8253; </a>
             </div>
-           </form> 
+        </form>
     </footer>
 
 
-<script src="../javascript/FAQ.js"></script>
+    <script src="../javascript/FAQ.js"></script>
 </body>
 
 </html>
