@@ -53,3 +53,12 @@ main{
 img:hover{
     border: 2px solid black;
 }
+
+a{
+    text-decoration: none;
+    color: #FFFFFF
+}
+
+a:hover{
+    color: black;
+}
