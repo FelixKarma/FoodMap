@@ -11,81 +11,44 @@ body{
     align-items: center;
 }
 
+.boutonquestionaposer {
+height: 40px;
+width: 270px;
+border: solid;
+}
+
 .popup {
 
 }
 
-.zonequestiondrop {
-height: 60px;
-width: 300px;
-border: solid;
-border-width: 1px;
-border-radius: 8px;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-background: white;
-font-family: 'Roboto', sans-serif;
-font-size: 15px;
-margin-bottom: 2px;
-cursor: pointer;
-transition: 0.35s ease-out;
+.zonequestion {
+    height: 60px;
+    width: 270px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(#ffffff, #c8c6c6);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.35s ease-out;
 }
 
-/* dd container */
-.dropdown {
-    display: inline-block;
-    position: relative;
-    outline: none;
-    margin: 10px;
-  }
-
-  /* dd content */
-.dropdown .dropdown-content {
-    position: absolute;
-    top: 50%;
-    background-color: #f7f7f7;
-    min-width: 120%;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 100000;
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.35s ease-out;
-  }
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    display: block;
-    text-decoration: none;
-    transition: 0.35s ease-out;
-  }
-  .dropdown-content a:hover {
-    background-color: #eaeaea;
-  }
-
-  /* show dd content */
-.dropdown:focus .dropdown-content {
-    outline: none;
-    transform: translateY(20px);
-    visibility: visible;
-    opacity: 1;
-  }
-  .dropbtn:hover, .dropdown:focus .dropbtn {
-    /* background-color: #691692; */
-  }
-  
-  /* mask to close menu by clicking on the button */
-  .dropdown .db2 {
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0; opacity: 0;
+.zonereponse {
+    height: 130px;
+    width: 270px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+    margin-bottom: 2px;
     cursor: pointer;
-    z-index: 10;
-    display: none;
-  }
-  .dropdown:focus .db2 {
-    display: inline-block;
-  }
-  .dropdown .db2:focus .dropdown-content {
-    outline: none;
-    visibility: hidden;
-    opacity: 0;
-  }
+    text-align: center;
 
+  }
