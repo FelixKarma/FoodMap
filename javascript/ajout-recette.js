@@ -10,7 +10,7 @@ function getValue() {
 
     
     let newDiv = document.createElement('div');
-    newDiv.classList.add('frame');
+    newDiv.classList.add('small-frame');
     let newIng = document.createElement('p');
     newIng.innerText = input;
     newDiv.append(newIng);
@@ -20,7 +20,10 @@ function getValue() {
     newDiv2.classList.add('frame');
     let newIng2 = document.createElement('p');
     newIng2.innerText = input;
+    let deleteImg = document.createElement('img');
+    deleteImg.src = '../img/delete.svg';
     newDiv2.append(newIng2);
+    newDiv2.append(deleteImg);
     ingredientsTest2.append(newDiv2);
 
 }

@@ -113,6 +113,18 @@
     background-color: #D9D9D9;
     border-radius: 10px;
   }
-  .frame>p {
-    padding-left: 10px;;
+  .frame>p, .small-frame>p {
+    padding-left: 10px;
+  }
+
+  #ingredients2-test {
+    }
+
+  .frame {
+    margin: 10px;
+    height: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
