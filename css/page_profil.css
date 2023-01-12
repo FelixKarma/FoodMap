@@ -69,3 +69,11 @@ h4{
     margin-bottom: 3px;
     margin-top: 20px;
 }
+
+.block:hover{
+    color: black;
+}
+
+img:hover{
+    border: 2px solid black;
+}

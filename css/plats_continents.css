@@ -47,6 +47,9 @@ main{
 }
 
 .block:hover{
-    border: 2px solid chartreuse;
-    color: chartreuse;
+    color: black;
+}
+
+img:hover{
+    border: 2px solid black;
 }
