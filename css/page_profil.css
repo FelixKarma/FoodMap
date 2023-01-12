@@ -25,7 +25,8 @@ main{
 }
 
 .flex{
-    display:flex !important;
+    display:flex;
+    justify-content: space-between;
 }
 
 img{
@@ -61,4 +62,18 @@ img{
 .flex-space-between{
     display:flex;
     justify-content: space-between;
+}
+
+h4{
+    font-weight:bold;
+    margin-bottom: 3px;
+    margin-top: 20px;
+}
+
+.block:hover{
+    color: black;
+}
+
+img:hover{
+    border: 2px solid black;
 }

@@ -11,43 +11,44 @@ body{
     align-items: center;
 }
 
+.boutonquestionaposer {
+height: 40px;
+width: 270px;
+border: solid;
+}
+
 .popup {
 
 }
 
-.questiondrop {
-height: 60px;
-width: 300px;
-border: solid;
-border-width: 1px;
-border-radius: 8px;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-background: white;
-font-family: 'Roboto', sans-serif;
-font-size: 15px;
-margin-bottom: 2px;
+.zonequestion {
+    height: 60px;
+    width: 270px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(#ffffff, #c8c6c6);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.35s ease-out;
 }
-    
-.dropdown {
-position: relative;
-display: inline-block;
-}
-    
 
-.dropdown-content {
-display: none;
-/* position: absolute; */
-background-color: #f1f1f1;
-min-width: 160px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-z-index: 1;
-}
-    
-.dropdown:focus .dropdown-content {display: block;}
-    
-.p1{
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
+.zonereponse {
+    height: 130px;
+    width: 270px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    text-align: center;
+
+  }

@@ -19,6 +19,7 @@ h3{
 
 .block{
     display:block;
+    
 }
 
 .m-20{
@@ -28,6 +29,12 @@ h3{
 
 .flex{
     display:flex;
+    justify-content: space-between;
+}
+
+.flex-space-around{
+    display: flex;
+    justify-content: space-around;
 }
 
 .roboto{
@@ -37,4 +44,12 @@ h3{
 main{
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.block:hover{
+    color: black;
+}
+
+img:hover{
+    border: 2px solid black;
 }
