@@ -37,6 +37,7 @@ img{
 
 .block{
     display:block !important;
+    text-align: center;
 }
 
 .m-20{
@@ -62,6 +63,7 @@ img{
 .flex-space-between{
     display:flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
 h4{

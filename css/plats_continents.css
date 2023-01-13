@@ -19,7 +19,7 @@ h3{
 
 .block{
     display:block;
-    
+    text-align: center;
 }
 
 .m-20{
@@ -30,6 +30,7 @@ h3{
 .flex{
     display:flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .flex-space-around{
