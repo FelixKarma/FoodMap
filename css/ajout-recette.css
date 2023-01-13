@@ -14,6 +14,12 @@
     font-family: 'Roboto', sans-serif;
   }
 
+
+  main {
+    height: 72vh;
+    overflow: scroll;
+  }
+
   ul {
     display: none;
   }
@@ -28,7 +34,7 @@
   .fieldset>label>input {
     width: 80vw;
     min-height: 3em;
-    margin: 10px;
+    margin: 8px;
     border: none;
     border-radius: 10px;
     font-size: 1em;
@@ -37,7 +43,7 @@
   .fauxfieldset {
     width: 80vw;
     min-height: 3em;
-    margin: 10px;
+    margin: 8px;
     border: none;
     border-radius: 10px;
     font-size: 1em;
@@ -86,7 +92,10 @@
   .modal-body>button {
     border-radius: 10px;
     border: none;
-    padding: 2px 5px 2px 5px;
+  }
+  
+  .modal-body>button>img, .delete-ing>img, .delete-tag>img {
+    padding-bottom: 9px;
   }
 
 
@@ -94,7 +103,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px auto auto auto;
+    margin: 15px auto 15px auto;
     font-weight: bold;
     font-size: 1.5em;
     color: #333333;
@@ -118,31 +127,49 @@
     border-radius: 10px;
   }
   .frame>p, .small-frame>p {
-    padding-left: 10px;
+    padding: 0 10px 0 10px;
   }
 
   #ingredients-test {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    overflow: scroll;
+  }
+
+  #tag-test {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .small-frame {
-    width: 30%;
-    overflow: scroll;
+    min-width: 30%;
+    width: fit-content;
+    height: 22px;
+    color: #333333;
     margin: 2px;
   }
 
   .frame {
     margin: 10px;
-    height: 25px;
-    text-align: center;
+    max-height: 25px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
   }
 
   .delete-ing {
     background: none;
     border: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .delete-tag {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .bouton-ing, .bouton-tag {
+    overflow: scroll;
   }
