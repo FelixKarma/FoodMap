@@ -57,24 +57,24 @@
                 <td><input type="checkbox"></td>
             </tr>
         </table>
-        <div class="separation">
-            <a href="page_connexion.html">
-                <input type="submit" class="bg-bouton" value="Déconnexion">
-            </a>
-        </div>
+        <a href="page_connexion.html">
+            <input type="submit" class="bg-bouton" value="Déconnexion">
+        </a>
+        <input type="button" id="input" class="bg-bouton" value="Suppression"/>
         <div class="modal" id="modal">
             <div class="modal-back"></div>
             <div class="modal-container text-center">
                 <label>Êtes vous sûr de vouloir supprimer votre compte?</label>
                 <div class="flex">
-                    <input type="button" class="bg-bouton" value="Confirmer">
+                    <a href="page_inscription.html">
+                        <input type="button" class="bg-bouton" value="Confirmer">
+                    </a>
                     <a href="#" id="modal-close">
                         <input type="button" class="bg-bouton" value="Annuler">
                     </a>
                 </div>
             </div>
         </div>
-        <input type="text" id="input" />
     </main>
     <footer>
         <hr />

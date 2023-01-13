@@ -1,37 +1,53 @@
-document.getElementById('modal').style.display = 'block';
+// // document.getElementById('modal').style.display = 'block';
 
-window.addEventListener('scroll', function(e) {
-    setTimeout( () => {
-      document.getElementById('modal').style.display = 'block'
-    }, 2000 )
-  });
-
+let suppBtn = document.getElementById('input');
 let modalAlreadyShowed = false;
-window.addEventListener('scroll', function(e) {
-    if( ! modalAlreadyShowed ) {
-      setTimeout( () => {
-        document.getElementById('modal').style.display = 'block'
-      }, 2000 )
+
+suppBtn.addEventListener('click', function(e) {
+  if( ! modalAlreadyShowed ) {
       modalAlreadyShowed = true
-    }
-  });
+      document.getElementById('modal').style.display = 'block';
+
+  }
+});
 
 document.getElementById('modal-close').addEventListener('click', function(e) {
-document.getElementById('modal').style.display = 'none'
-  });
+  document.getElementById('modal').style.display = 'none';
+  modalAlreadyShowed = false;
+})
 
-var confirmExiting = false;
+// window.addEventListener('click', function (e) {
+//     setTimeout(() => {
+//         document.getElementById('modal').style.display = 'none'
+//     }, 0000)
+// });
 
-document.getElementById('input').addEventListener('input', function(e) {
-    confirmExiting = true
-  });
+// let modalAlreadyShowed = false;
+// window.addEventListener('click', function (e) {
+//     if (!modalAlreadyShowed) {
+//         setTimeout(() => {
+//             document.getElementById('modal').style.display = 'block'
+//         }, 2000)
+//         modalAlreadyShowed = true
+//     }
+// });
 
-window.addEventListener('beforeunload', function (e) {
-    if( confirmExiting ) {
-      e.preventDefault();
-      e.returnValue = '';
-    }
-    });
+// document.getElementById('modal-close').addEventListener('click', function (e) {
+//     document.getElementById('modal').style.display = 'none'
+// });
+
+// var confirmExiting = false;
+
+//  document.getElementById('input').addEventListener('input', function (e) {
+//      confirmExiting = true
+// });
+
+// window.addEventListener('beforeunload', function (e) {
+//     if (confirmExiting) {
+//         e.preventDefault();
+//         e.returnValue = '';
+//     }
+// });
 
 
 let theme1 = document.querySelector('#theme1');
