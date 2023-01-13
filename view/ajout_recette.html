@@ -35,8 +35,8 @@
                     </label>
                 </div>
                 <div class="fieldset fauxfieldset recipe-image">
+                    <p>Mon image</p>
                     <label for="recipe-img">
-                        Mon image
                         <input type="file" id="recipe-img" name="recipe-img" accept="image/png, image/gif, image/jpeg" required>
                     </label>
                 </div>
@@ -61,12 +61,12 @@
             <div class="modal-body">
                 <div id="ingredients2-test"></div>
                 <p>Ajouter un ingrédient:</p>
-                <input type="text" id="new-ingredient" name="new-ingredient" placeholder="Nouvel ingrédient" required/>
-                <button type="button" onclick="getValue();"><img src="../img/add.svg" alt="add button"></button>
+                <input type="text" id="new-ingredient" name="new-ingredient" placeholder="Nouvel ingrédient" onfocus="this.value=''" required/>
+                <button type="button" onclick="getValue(); resetDefaultValue();"><img src="../img/add.svg" alt="add button"></button>
             </div>
             <div class="modal-footer">
                     <button type="button" data-bs-dismiss="modal"><img class="modal-button" src="../img/discard.svg" alt="Discard button"></button>
-                    <button type="button"><img class="modal-button" src="../img/save-changes.svg" alt="Save changes button"></button>
+                    <button type="button" data-bs-dismiss="modal"><img class="modal-button" src="../img/save-changes.svg" alt="Save changes button"></button>
             </div>
         </div>
     </div>
@@ -90,7 +90,7 @@
             </div>
             <div class="modal-footer">
                     <button type="button" data-bs-dismiss="modal"><img class="modal-button" src="../img/discard.svg" alt="Discard button"></button>
-                    <button type="button"><img class="modal-button" src="../img/save-changes.svg" alt="Save changes button"></button>
+                    <button type="button" data-bs-dismiss="modal"><img class="modal-button" src="../img/save-changes.svg" alt="Save changes button"></button>
             </div>
         </div>
     </div>
@@ -114,7 +114,7 @@ Ajouter des filtres
 </div>
 <div class="modal-footer">
         <button type="button" data-bs-dismiss="modal"><img class="modal-button" src="../img/discard.svg" alt="Discard button"></button>
-        <button type="button"><img class="modal-button" src="../img/save-changes.svg" alt="Save changes button"></button>
+        <button type="button" data-bs-dismiss="modal"><img class="modal-button" src="../img/save-changes.svg" alt="Save changes button"></button>
 </div>
 </div>
 </div>

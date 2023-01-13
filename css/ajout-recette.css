@@ -46,9 +46,9 @@
     background-color: #FFFFFF;
   }
 
-  .recipe-image>label {
-    display: flex;
-    justify-content: center;
+  .recipe-image>p, .recipe-image>label>input {
+    margin: 0;
+    padding: 0;
   }
 
   /* Boites modales*/
@@ -121,6 +121,18 @@
     padding-left: 10px;
   }
 
+  #ingredients-test {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: scroll;
+  }
+  .small-frame {
+    width: 30%;
+    overflow: scroll;
+    margin: 2px;
+  }
+
   .frame {
     margin: 10px;
     height: 25px;
@@ -128,4 +140,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .delete-ing {
+    background: none;
+    border: none;
   }
