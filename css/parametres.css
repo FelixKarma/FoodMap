@@ -124,25 +124,32 @@ a{
   padding: 5px;
 }
 
-.popup {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
+.modal {
+  display: none;
 }
 
-.popup .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
+.modal-back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba( 0, 0, 0, .25 )
+}
+
+.modal-container {
+  position: fixed;
+  top: 50%;
   left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
+  padding: 25px;
+  background-color: #FFFFFF;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  height: 110px;
+  width:200px;
 }
 
-.popup .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
+.flex{
+  display:flex;
+  justify-content: space-around;
 }
