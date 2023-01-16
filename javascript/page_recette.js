@@ -10,57 +10,28 @@ function fillHeart() {
     };
 
 // notation étoiles
-/*
-const NbStar = 5;
-const StarBaseId = 'star';	
+window.onload = () => {
+    const stars = document.querySelectorAll(".fi-rs-star"); // on récupère les étoiles
 
-const LgtStarBaseId=star.lastIndexOf('');
+    for(star of stars){
+        star.addEventListener("mouseover", function(){
+            resetStars();
+            this.classList.add("fi-ss-star");
+            this.classList.remove("fi-rs-star");
+            let previousStar = this.previousElementSibling;
 
- function nameTheStar(star){
-    StarNb=star.slice(LgtStarBaseId);
-	return(StarNb);
-}
+            while(previousStar){
+            previousStar.classList.add("fi-ss-star");
+            previousStar.classList.remove("fi-rs-star");
+            previousStar = previousStar.previousElementSibling;
+            };
+        })
+    };
 
-function StarOver(star) {
-	StarNb=Name2Nb(star);
-	for (i=0;i<StarNb;i++) {
-		document.getElementById('star'+i).src="../img/filled-star.svg";
-	}
-}
-
-function StarOut(star) {
-	StarNb=Name2Nb(star);
-	for (i=0;i<(StarNb);i++) {
-		document.getElementById('star'+i).src="../img/empty-star.svg";
-	}
-}
-
-function note(){
-    for (i=0;i<NbStar;i++) {
-		var img = document.getElementById('star'+i);
-			
-    	img.onclick	= function note() {
-            var currentStar = document.getElementById("star"+i).src;
-        if (currentStar.endsWith("img/empty-star.svg")){
-            //currentImg.src = "../img/filled-heart.svg"; ça marche po
-            document.getElementById("star"+i).setAttribute("src","../img/filled-star.svg");
-        } else {
-            // currentImg.src = "../img/empty-heart.svg"; ça marche po
-            document.getElementById("star"+i).setAttribute("src","../img/empty-star.svg");
+    function resetStars(){
+        for(star of stars){
+            star.classList.add("fi-rs-star");
+            star.classList.remove("fi-ss-star");
         }
-        };
-	
-		/*
-		img.src = "../img/empty-star.svg";
-		img.onmouseover	=function() {StarOver(this.id);};
-		img.onmouseout	=function() {StarOut(this.id);};
-	}
-};
-
-function fillStars() {
-    var currentStar = 
-    var stars = document.getElementsByClassName("star");
-    for (let i=0 ; i<stars.length ; i++){
-        currentStar =
     }
-}*/
+};

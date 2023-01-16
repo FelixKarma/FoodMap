@@ -75,10 +75,6 @@
     margin: 1em;
   }
 
-  .note>img {
-    height: 25px;
-  }
-
   .like {
     display: flex;
     justify-content: flex-end;
