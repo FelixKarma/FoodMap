@@ -13,13 +13,13 @@ body{
 
 .searchtext {
     height: 45px;
-    width: 190px;
+    width: 220px;
     border: none;
     border-radius: 40px;
     background: white;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    color: gray;
+    color: black;
     margin-top: 45px;
     transition: width 2s, transform 2s; 
     transition: ease-in 0.4s;
