@@ -15,13 +15,13 @@
 hr{
     background-color: #ffffff !important;
     margin-top: 7px !important;
-
     
 }
 
 h1{
     color: #fdf7f7 !important;
     font-weight: bold !important;
+    margin-top: auto !important;
 }
 
 img{
