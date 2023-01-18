@@ -13,16 +13,29 @@
 <body>
     <header>
         <div class="justify-space-around items-center">
-            <a href="Accueil.html">
-                <img src="../img/FoodMap.png" width="60" height="60" />
-            </a>
+            <input type="image" id="input" img src="../img/FoodMap.png" width="60" height="60">
+            <div class="modal" id="modal">
+                <div class="modal-back"></div>
+                <div class="modal-container text-center">
+                    <label>Vous ne vous êtes pas encore connecté.e</label>
+                    <a href="#" id="modal-close">
+                        <input type="button" class="bg-bouton" value="Se connecter">
+                    </a>
+                </div>
+            </div>
             <h1 class="roboto">FoodMap</h1>
-            <a href="acc_fiche_profil.html">
-                <img src="../img/Group.png"width="55" height="55">
-            </a> 
+            <input type="image" id="input" img src="../img/Group.png"width="55" height="55">
+            <div class="modal" id="modal">
+                <div class="modal-back"></div>
+                <div class="modal-container text-center">
+                    <label>Vous ne vous êtes pas encore connecté.e</label>
+                    <a href="#" id="modal-close">
+                        <input type="button" class="bg-bouton" value="Se connecter">
+                    </a>
+                </div>
+            </div>
         </div>
         <hr />
-
     </header>
     <main class="roboto">
         <form action="Accueil.html">
@@ -45,12 +58,20 @@
         <hr />
         <div class="justify-space-around items-center">
             <a class="bouton1" href=javascript:history.go(-1) > &#8676; </a>
-            <a href="ajout_recette.html">
-                <img src="../img/Mascotte.png" alt="" class="smile" width="50" height="50">
-            </a>
+            <input type="image" id="input" img src="../img/Mascotte.png" class="smile" width="50" height="50">
+            <div class="modal" id="modal">
+                <div class="modal-back"></div>
+                <div class="modal-container text-center">
+                    <label>Vous ne vous êtes pas encore connecté.e</label>
+                    <a href="#" id="modal-close">
+                        <input type="button" class="bg-bouton" value="Se connecter">
+                    </a>
+                </div>
+            </div>
             <a class="bouton2" href="FAQ.html" > &#8253; </a>
         </div>
     </footer>
     <script src="../javascript/background.js"></script>
+    <script src="../javascript/modal.js"></script>
 </body>
 </html>
