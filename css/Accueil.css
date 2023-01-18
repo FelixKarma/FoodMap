@@ -48,7 +48,7 @@ body{
 .slider {
     height: 100%;
     display: flex;
-    width: 700%;
+    width: 750%;
     transition: all 0.3s;
 }
 
@@ -98,4 +98,9 @@ body{
     background: #9BE3FF;
     width: 15px;
     height: 15px;
+}
+
+.taillo{
+    width: 100%;
+    height: 100%;
 }
