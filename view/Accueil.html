@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/Accueil.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/foot.css">
     <title>Accueil</title>
 </head>
 
@@ -31,7 +33,9 @@
     <main class="main">
 
         <div>
-            <input class="searchtext" type="text" style="background-image:url(../img/Loupe.png);background-position:93% 50%;background-repeat:no-repeat;padding-left: 15px;padding-right: 25px;" placeholder="3,2,1... A vos fourneaux !">
+            <input class="searchtext" type="text"
+                style="background-image:url(../img/Loupe.png);background-position:93% 50%;background-repeat:no-repeat;padding-left: 15px;padding-right: 25px;"
+                placeholder="3,2,1... A vos fourneaux !">
         </div>
 
         <div class="contener">
@@ -48,11 +52,37 @@
                 <div class="controls">
                     <span class="arrow left"><img src="../img/LeftArrow.png" alt=""></span>
                     <span class="arrow right"><img src="../img/RightArrow.png" alt=""></span>
+                    <ul>
+                        <li class="selected"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
                 </div>
             </div>
         </div>
+            </ul>
     </main>
-    <script src="../javascript/background.js"></script>
+
+    <!-- Footer -->
+
+    <footer>
+        <form action="#">
+            <hr />
+            <div class="justify-space-around items-center">
+                <a class="bouton1" href=javascript:history.go(-1)> &#8676; </a>
+                <a href="ajout_recette.html">
+                    <img src="../img/Mascotte.png" alt="" class="smile" width="50" height="50">
+                </a>
+                <a class="bouton2" href="FAQ.html"> &#8253; </a>
+            </div>
+        </form>
+    </footer>
+
+    <script src="../javascript/Accueil.js"></script>
 </body>
 
 </html>
