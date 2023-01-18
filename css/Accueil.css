@@ -2,7 +2,7 @@ body{
     background: linear-gradient(180deg, #ECC19C 0%, #EC6408 100%);
     font-family: 'Roboto', sans-serif;
     height: 667px;
-}  
+}
 
 .main {
     display: flex;
@@ -30,25 +30,45 @@ body{
     height: 70px;
 } 
 
-.backgroundmap {
-height: 170px;
-width: 290px;
-padding-left: 8px;
-background-color: #9BE3FF;
-border: white;
-border-style: solid;
-border-width: 7px;
-margin: 55px 25px 20px 25px;
-border-radius: 10px;
+.container {
+    width: 20%;
+    margin: 10px auto;
 }
 
-.dots{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
+.carousel {
+    background: #9BE3FF;
+    border: 7px solid white;
+    border-radius: 15px;
+    height: 230px;
+    overflow: hidden;
+    position: relative;
+    margin: 55px 25px 20px 25px;
 }
-          
-.dot{
- margin-left: 5px;
+
+.slider {
+    height: 100%;
+    display: flex;
+    width: 700%;
+    transition: all 0.3s;
+}
+
+.slider section {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls .arrow {
+    position: absolute;
+    top: 42%;
+    cursor: pointer;
+}
+
+.arrow.left {
+    left: 10px;
+}
+
+.arrow.right {
+    right: 10px;
 }
