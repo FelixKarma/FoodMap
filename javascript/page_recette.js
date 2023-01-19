@@ -38,8 +38,8 @@ window.onload = () => {
             
             }
             else {
-            star.classList.add("fi-ss-star");
-            star.classList.remove("fi-rs-star");
+            star.classList.add("fi-rs-star");
+            star.classList.remove("fi-ss-star");
             }
         }
     }
