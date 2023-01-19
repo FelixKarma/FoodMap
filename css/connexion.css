@@ -104,10 +104,23 @@ main{
   position: fixed;
   top: 50%;
   left: 50%;
-  padding: 25px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  align-content: space-between;
   background-color: #FFFFFF;
   transform: translate(-50%, -50%);
   border-radius: 10px;
   height: 110px;
-  width:200px;
+  width: 150px;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.block{
+  display: block;
+}
+
+.machin{
+  margin: 20px;
 }
