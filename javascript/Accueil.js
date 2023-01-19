@@ -87,7 +87,57 @@ recherche = document.getElementById("search").value.toUpperCase();
 i = document.getElementById("recettes");
 
 i = recettes.getElementByTagName("");
-//
+
+
+
+//                                                     Essai n°3
+
+
+
+
+// Index recettes
+
+const recettes = ["falafel", "fricassé", "tiramisu"];
+
+
+
+const reponse = recettes.filter(recommandation => recommandation.value == "search");
+
+
+
+//                                                  Essai final (exo) ? 
+
+
+
+// Index recettes
+
+let recettes = ["falafel", "fricassé", "tiramisu"];
+
+// Récupération du mot recherché
+
+let search = document.getElementById("search");
+
+search.addEventListener("keydown", function (event) {
+
+    // Recherche = mot entré (id "search" de la barre de recherche), reponse = resultat
+    let recherche = document.getElementById("search").value.toLowerCase();
+    let reponse;
+
+    //Detection de la touche entrée
+   
+        //Parcours le tableau recettes grace à for of
+            //On compare la recherche avec les différents éléments du tableau
+
+                //On redirige vers la page recherchée si trouvée
+
+                //On passe reponse à true pour dire que c'est bon
+                
+                //On break pour casser la boucle for, au cas où on a plusieurs éléments dans le tableau après le resultat trouvé
+               
+        //On check enfin si la reponse est false pour renvoyer vers 404
+        
+    
+})
 
 
 
