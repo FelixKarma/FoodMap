@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/page-recette.css">
+    <link rel="stylesheet" href="../css/headerrecette.css">
+    <link rel="stylesheet" href="../css/foot.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="justify-space-around items-center">
+            <a href="Accueil.html">
+                <img src="../img/FoodMap.png" width="60" height="60" />
+            </a>
+            <h1 class="roboto">FoodMap</h1>
+            <a href="acc_fiche_profil.html">
+                <img src="../img/Group.png" width="55" height="55">
+            </a>
+        </div>
+        <hr />
+    </header>
+
+    <main>
+        <div class="head-recipe">
+            <img src="../img/Paris-Brest.jpg" alt="image du plat à réaliser" class="image-recipe"/>
+            <div class="info-recipe">
+                <div class="truc">
+                    <div class="title-recipe">
+                        <h1>Paris-Brest</h1>
+                        <h2>France</h2>
+                    </div>
+                    <div class="like">
+                        <img src="../img/empty-heart.svg" alt="" width="50" height="50" id="likeimg" onclick="fillHeart();">
+                    </div>
+                </div>
+                <div class="note stars">
+                    <i class="fi fi-rs-star star"></i>
+                    <i class="fi fi-rs-star star"></i>
+                    <i class="fi fi-rs-star star"></i>
+                    <i class="fi fi-rs-star star"></i>
+                    <i class="fi fi-rs-star star"></i>
+                </div>
+                <p></p>
+                <div class="note"></div>
+                <div class="moyenne"></div>
+            </div>
+        </div>
+        <div class="recipe">
+            <div class="boutondesesm">
+            <button class="ingredients" type="button" data-bs-toggle="collapse" data-bs-target="#ingredients-list">
+                <img src="../img/carrot.svg" alt="" class="icon">
+                <h2>Ingrédients</h2>
+                <img src="../img/drop-img.svg" alt="" class="drop-icon">
+            </button>
+
+                <div class="collapse" id="ingredients-list">
+                        <div class="truccache">
+                            <ul class="ingredients-list">
+                                <li> 125g de sucre</li>
+                                <li>60 g de farine</li>
+                                <li>3 oeufs</li>
+                                <li>70g de pralin</li>
+                                <li>125g de beurre</li>
+                                <li>50 cl de lait</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+            
+            <div class="boutondesesm">
+            <button class="recette" type="button" data-bs-toggle="collapse" data-bs-target="#recette-developpee">
+                <img src="../img/whisk.svg" alt="" class="icon">
+                <h2>Recette</h2>
+                <img src="../img/drop-img.svg" alt="" class="drop-icon">
+            </button>
+            <div class="collapse" id="recette-developpee">
+                    <div class="truccache trucccache-text">
+                    <p class="">Porter à ébullition 1/8 l d' eau dans une casserole avec le sel, le sucre, et le beurre coupé en morceaux. Retirer du feu. Y mettre toute la farine d'un coup. Mélanger énergiquement à la spatule.
+                        Remettre ensuite la casserole sur feu doux. Dessécher la pâte en la travaillant avec une spatule et en veillant à ne pas la laisser coller au fond. Retirer du feu, ajouter les oeufs un à un en mélangeant parfaitement.
+                        Répartir également la pâte dans un moule en forme de couronne. Dorer à l' oeuf battu et rayer à la fourchette. Parsemer d' amandes effilées. Cuire à four chaud, à 220°C (Th 7/8 ) durant 10 mn, le temps que la pâte lève, puis à 200°C (Th 6/7 ) pour cuire et sécher la pâte sans trop colorer.Mélanger à l' aide d' un fouet le sucre, la farine, les oeufs.
+                        Faire bouillir le lait, et retire du feu. Verser la première préparation et battre avec le fouet (bien mélanger). Porter à ébullition sans cesser de remuer.Fouetter la crème pâtissière chaude avec la moitié du beurre. Laisser refroidir. Ajouter la deuxième partie du beurre ainsi que le pralain. Réserver au frais.
+                        Couper la couronne refroidie et la garnir de crème à l' aide d' une poche à douille cannelée. Saupoudrer de sucre glace
+                    </p>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <footer>
+        <form action="#">
+            <hr />
+            <div class="justify-space-around items-center">
+                <a class="bouton1" href=javascript:history.go(-1) > &#8676; </a>
+                <a href="ajout_recette.html">
+                    <img src="../img/Mascotte.png" alt="" class="smile" width="50" height="50">
+                </a>
+                <a class="bouton2" href="FAQ.html" > &#8253; </a>
+            </div>
+           </form> 
+    </footer>
+
+<script src="../javascript/page_recette.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="../javascript/background.js"></script>
+</body>
+</html>
