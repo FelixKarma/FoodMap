@@ -28,42 +28,49 @@
 
     <!-- Main -->
 
-    <main class="main">
+    <main>
 
-        <a href="/FoodMap/view/Formulaire Question.html">
-            <button class="boutonquestionaposer">Une question à nous poser .?</button>
-        </a>
-
-        <button class="zonequestion" onclick="myFunction(0)">Qui sommes-nous ?</button>
-
-        <div class="zonereponse" id="myDIV1">
-            FlipFloup
+        <div class="zonequestionclick">
+            <a href="/FoodMap/view/Formulaire Question.html">
+                <button class="zonequestion">Un renseignement précis .?</button>
+            </a>
         </div>
 
-        <button class="zonequestion" onclick="myFunction(1)">Qui sommes-nous ?</button>
+        <div class="flexquestion">
+            <button class="zonequestion" onclick="myFunction(0)"
+                style="background-image:url(../img/drop-img.svg);background-position:93% 50%;background-repeat:no-repeat;padding-left: 15px;padding-right: 45px;">Qui
+                sommes-nous ?</button>
 
-        <div class="zonereponse" id="myDIV2">
-            FlipFloup
+            <div class="zonereponse" id="myDIV1">
+                Foodmap est une start-up particulièrement VIP. Des centaines de milliardaires financent chaque jour
+                notre projet. Nous n'avons pas la prétention de dire que nous sommes l'une des meilleures application
+                d'internet, puisque nous sommmes en tête avec une avance plus que sidérale.
+            </div>
+
+            <button class="zonequestion" onclick="myFunction(1)"
+                style="background-image:url(../img/drop-img.svg);background-position:93% 50%;background-repeat:no-repeat;padding-left: 15px;padding-right: 45px;">Gestion
+                de votre compte</button>
+
+            <div class="zonereponse" id="myDIV2">
+                FlipFloup
+            </div>
+
+            <button class="zonequestion" onclick="myFunction(2)"
+                style="background-image:url(../img/drop-img.svg);background-position:93% 50%;background-repeat:no-repeat;padding-left: 15px;padding-right: 45px;">Sécurité
+                et confidentialité</button>
+
+            <div class="zonereponse" id="myDIV3">
+                FlipFloup
+            </div>
+
+            <button class="zonequestion" onclick="myFunction(3)"
+                style="background-image:url(../img/drop-img.svg);background-position:93% 50%;background-repeat:no-repeat;padding-left: 15px;padding-right: 45px;">Politique
+                et signalements</button>
+
+            <div class="zonereponse" id="myDIV4">
+                FlipFloup
+            </div>
         </div>
-
-        <button class="zonequestion" onclick="myFunction(2)">Qui sommes-nous ?</button>
-
-        <div class="zonereponse" id="myDIV3">
-            FlipFloup
-        </div>
-
-        <button class="zonequestion" onclick="myFunction(3)">Qui sommes-nous ?</button>
-
-        <div class="zonereponse" id="myDIV4">
-            FlipFloup
-        </div>
-
-        <button class="zonequestion" onclick="myFunction(4)">Qui sommes-nous ?</button>
-
-        <div class="zonereponse" id="myDIV5">
-            FlipFloup
-        </div>
-
     </main>
 
     <!-- Footer -->
@@ -81,7 +88,7 @@
         </form>
     </footer>
 
-
+    <script src="../javascript/background.js"></script>
     <script src="../javascript/FAQ.js"></script>
 </body>
 

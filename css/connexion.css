@@ -86,3 +86,41 @@ main{
   padding-left: 5px;
   padding-right: 5px;
 }
+
+.modal {
+  display: none;
+}
+
+.modal-back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba( 0, 0, 0, .25 )
+}
+
+.modal-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  align-content: space-between;
+  background-color: #FFFFFF;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  height: 110px;
+  width: 150px;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.block{
+  display: block;
+}
+
+.machin{
+  margin: 20px;
+}

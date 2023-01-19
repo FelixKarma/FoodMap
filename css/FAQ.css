@@ -4,46 +4,33 @@ body{
     height: 667px;
 }  
 
-.main {
+.flexquestion {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
 }
 
-.boutonquestionaposer {
-    height: 40px;
-    width: 270px;
-    border: solid;
-    border-width: 1px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background: linear-gradient(#ffffff, #c8c6c6);
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    cursor: pointer;
-    text-align: center;
-}
-
-.popup {
-
+.zonequestionclick {
+    margin-top: 34px;
+    margin-bottom: 19px;
+    margin-left: 38px;
 }
 
 .zonequestion {
     height: 60px;
-    width: 300px;
-    border: solid;
-    border-width: 1px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background: linear-gradient(#ffffff, #ebe6e6);
+    width: 80vw;
+    border: none;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
+    padding: 0.3em;
     cursor: pointer;
     text-align: center;
     transition: 0.35s ease-out;
+    margin: 10px auto;
 }
 
 .zonereponse {
@@ -61,5 +48,5 @@ body{
     margin-bottom: 8px;
     cursor: pointer;
     text-align: center;
-    
-  }
+}
+

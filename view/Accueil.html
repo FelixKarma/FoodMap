@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/Accueil.css">
-    <link rel="stylesheet" href="../css/foot.css">
-    <link rel="stylesheet" href="../css/header.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/Accueil.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/foot.css">
     <title>Accueil</title>
 </head>
 
@@ -22,7 +22,7 @@
                 <img src="../img/FoodMap.png" width="60" height="60" />
             </a>
             <h1 class="roboto">FoodMap</h1>
-            <a href="acc_fiche_profil.html"><img src="../img/Group.png"width="55" height="50"> </a> 
+            <a href="acc_fiche_profil.html"><img src="../img/Group.png" width="55" height="50"> </a>
         </div>
         <hr />
 
@@ -33,55 +33,56 @@
     <main class="main">
 
         <div>
-            <input class="searchtext" type="text" style="background-image:url(../img/Loupe.png);background-position:93% 50%;background-repeat:no-repeat;padding-left: 15px;padding-right: 25px;" placeholder="3,2,1... A vos fourneaux !">
+            <input class="searchtext" type="search" id="search" value=""
+                style="background-image:url(../img/Loupe.png);background-position:93% 50%;background-repeat:no-repeat;padding-left: 15px;padding-right: 25px;"
+                placeholder="3,2,1... A vos fourneaux !">
         </div>
 
-        <div >
-            <div class="backgroundmap">
-                <img src="../img/MpMAléa.png" height="150px">
-            </div>
-            <div class="dots">
-                <div class="dot">
-                    <img src="../img/Ellipse Veille.png" alt="Ploupy">
+        <div class="contener">
+            <div class="carousel">
+                <div class="slider">
+                    <section><a class="taillo" href="../view/europe.html"><img height="100%" width="100%" src="../img/MapEurope.png" alt="Oops"></a></section>
+                    <section><a class="taillo" href="../view/asie.html"><img height="100%" width="100%" src="../img/MapAsie.png" alt="Oops"></a></section>
+                    <section><a class="taillo" href="../view/afrique.html"><img height="100%" width="100%" src="../img/MapAfrique.png" alt="Oops"></a></section>
+                    <section><a class="taillo" href="../view/amerique_nord.html"><img height="100%" width="100%" src="../img/MapAmDuNord.png" alt="Oops"></a></section>
+                    <section><a class="taillo" href="../view/amerique_sud.html"><img height="100%" width="100%" src="../img/MapAmDuSud.png" alt="Oops"></a></section>
+                    <section><a class="taillo" href="../view/oceanie.html"><img height="100%" width="100%" src="../img/MapOcéanie.png" alt="Oops"></a></section>
+                    <section><a class="taillo" href=""><img height="100%" width="100%" src="../img/Mapx2.png" alt="Oops"></a></section>
                 </div>
-                <div class="dot">
-                    <img src="../img/Ellipse Veille.png" alt="Ploupy">
-                </div>
-                <div class="dot">
-                    <img src="../img/Ellipse Veille.png" alt="Ploupy">
-                </div>
-                <div class="dot">
-                    <img src="../img/Ellipse Veille.png" alt="Ploupy">
-                </div>
-                <div class="dot">
-                    <img src="../img/Ellipse Veille.png" alt="Ploupy">
-                </div>
-                <div class="dot">
-                    <img src="../img/Ellipse Veille.png" alt="Ploupy">
-                </div>
-                <div class="dot">
-                    <img src="../img/Ellipse Active.png" alt="Plypou">
+                <div class="controls">
+                    <span class="arrow left"><img src="../img/LeftArrow.png" alt=""></span>
+                    <span class="arrow right"><img src="../img/RightArrow.png" alt=""></span>
+                    <ul>
+                        <li class="selected"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
                 </div>
             </div>
         </div>
-
-        <!-- Footer -->
-
-        <footer>
-            <form action="#">
-                <hr />
-                <div class="justify-space-around items-center">
-                    <a class="bouton1" href=javascript:history.go(-1) > &#8676; </a>
-                    <a href="ajout_recette.html">
-                        <img src="../img/Mascotte.png" alt="" class="smile" width="50" height="50">
-                    </a>
-                    <a class="bouton2" href="FAQ.html" > &#8253; </a>
-                </div>
-               </form> 
-        </footer>
-
+            </ul>
     </main>
 
+    <!-- Footer -->
+
+    <footer>
+        <form action="#">
+            <hr />
+            <div class="justify-space-around items-center">
+                <a class="bouton1" href=javascript:history.go(-1)> &#8676; </a>
+                <a href="ajout_recette.html">
+                    <img src="../img/Mascotte.png" alt="" class="smile" width="50" height="50">
+                </a>
+                <a class="bouton2" href="FAQ.html"> &#8253; </a>
+            </div>
+        </form>
+    </footer>
+    <script src="../javascript/background"></script>
+    <script src="../javascript/Accueil.js"></script>
 </body>
 
 </html>
