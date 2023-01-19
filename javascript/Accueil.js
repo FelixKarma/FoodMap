@@ -31,31 +31,50 @@ rightArrow.addEventListener('click', function () {
 });
 
 
-let search = document.getElementById("search");
+// let search = document.getElementById("search");
 
 
-function UrlExists(url) {
-    var http = new XMLHttpRequest();
-    http.open('HEAD', url, false);
-    http.send();
-    if (http.status != 404)
-        return true;
-    else
-        return false;
-}
+// function UrlExists(url) {
+//     var http = new XMLHttpRequest();
+//     http.open('HEAD', url, false);
+//     http.send();
+//     if (http.status != 404)
+//         return true;
+//     else
+//         return false;
+// }
 
-search.addEventListener("keypress", function (event) {
-    var a = document.getElementById("search").value;
+// search.addEventListener("keypress", function (event) {
+//     var a = document.getElementById("search").value;
     
-    if (event.key === "Enter") {
-        var url = document.location.assign("recette " + a + ".html");
-        if (a !== null && a !== "") {
-            if(UrlExists(url) == true){
-                document.location.assign("recette " + a + ".html");
-            } else {
-                document.location.href = "404.html";
-            } 
-        }
-    }
-})
+//     if (event.key === "Enter") {
+//         var url = document.location.assign("recette " + a + ".html");
+//         if (a !== null && a !== "") {
+//             if(UrlExists(url) == true){
+//                 document.location.assign("recette " + a + ".html");
+//             } else {
+//                 document.location.href = "404.html";
+//             } 
+//         }
+//     }
+// })
+
+// Index recettes
+
+let recettes = ["falafel", "fricassé", "tiramisu"];
+
+// Index Continents 
+
+let continents = ["Afrique", "Amérique du Nord", "Amérique du Sud", "Asie", "Europe", "Océanie"];
+
+// Annonce variables 
+
+let i, filtre, réponse
+
+// Récupération et filtrage de la barre de recherche
+
+filtre = document.getElementById("search").value.toUpperCase();
+recettes = document.getElementById("recettes");
+
+
 
