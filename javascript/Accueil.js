@@ -31,6 +31,11 @@ rightArrow.addEventListener('click', function () {
 });
 
 
+
+//                                              Essai n°1
+
+
+
 // let search = document.getElementById("search");
 
 
@@ -59,22 +64,34 @@ rightArrow.addEventListener('click', function () {
 //     }
 // })
 
+
+
+//                                                      Essai n°2
+
+
+
 // Index recettes
 
 let recettes = ["falafel", "fricassé", "tiramisu"];
 
-// Index Continents 
+// Annonce variables i = 1 valeur du tableau, recherche = mot entré (id "search" de la barre de recherche), reponse = resultat si i = recherche
 
-let continents = ["Afrique", "Amérique du Nord", "Amérique du Sud", "Asie", "Europe", "Océanie"];
+let i, recherche, reponse
 
-// Annonce variables 
+// Récupération du mot recherché
 
-let i, filtre, réponse
+recherche = document.getElementById("search").value.toUpperCase();
 
-// Récupération et filtrage de la barre de recherche
+// i = 1 des éléments du tableau
 
-filtre = document.getElementById("search").value.toUpperCase();
-recettes = document.getElementById("recettes");
+i = document.getElementById("recettes");
+
+i = recettes.getElementByTagName("");
+//
+
+
+
+
 
 
 
