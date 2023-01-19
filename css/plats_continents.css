@@ -51,9 +51,9 @@ main{
     color: black;
 }
 
-img:hover{
-    border: 2px solid black;
-}
+/* img:hover{ */
+    /* border: 2px solid black; */
+/* } */
 
 a{
     text-decoration: none;
@@ -63,3 +63,10 @@ a{
 a:hover{
     color: black;
 }
+
+td{
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }

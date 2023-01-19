@@ -4,10 +4,10 @@ body{
     overflow: hidden;
 }
 
-h3{
+h2{
     color:#ffffff;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .roboto{
@@ -38,11 +38,6 @@ img{
 .block{
     display:block !important;
     text-align: center;
-}
-
-.m-20{
-    margin-top:20px;
-    margin-bottom:20px;
 }
 
 .bouton{
@@ -76,9 +71,9 @@ h4{
     color: black;
 }
 
-img:hover{
+/* img:hover{
     border: 2px solid black;
-}
+} */
 
 a{
     text-decoration: none;
@@ -87,4 +82,9 @@ a{
 
 a:hover{
     color: black;
+}
+
+.m-10{
+    margin-top:5px;
+    margin-bottom:5px;
 }
