@@ -83,7 +83,7 @@
   /*boutons drop-down*/
   button {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between !important;
     width: 80vw !important;
     margin: 0 auto;
     padding: 0.3em;
