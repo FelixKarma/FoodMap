@@ -56,3 +56,9 @@ body{
     margin: 5px;
     margin-top: 12px;
 }
+
+.bg-footer {
+    position: relative;
+    background: linear-gradient(#ec6d16 #ec6408);
+}
+ 

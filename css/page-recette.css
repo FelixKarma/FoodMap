@@ -132,7 +132,10 @@
 
   .trucccache-text {
     width: 80%;
-    margin: 0 auto;
+    margin-top: -15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
     padding: 10px 0 10px 20px;
     max-height: 50vh;
     color: #FFFFFF;
