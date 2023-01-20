@@ -58,7 +58,7 @@ body{
 }
 
 .bg-footer {
-    position: relative;
-    background: linear-gradient(#ec6d16 #ec6408);
+    position: fixed;
+    background: linear-gradient(#ec6d16, #ec6408);
 }
  
